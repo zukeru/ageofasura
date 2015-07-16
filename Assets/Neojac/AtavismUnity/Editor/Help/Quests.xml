@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name or "Title" of the Quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Description">
+      <Text>A story about the quest, as in why the player should do it.</Text>
+    </HelpEntry>
+    <HelpEntry item="Objective Text">
+      <Text>An explanation of what the user needs to do to complete the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Progress Text">
+      <Text>The text shown by the NPC when talking to them while on the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Completion Text">
+      <Text>Text shown by the NPC when handing in the Quest for completion.</Text>
+    </HelpEntry>
+    <HelpEntry item="Faction Group">
+      <Text>What Faction Group the player must be a part of to get this Quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Level">
+      <Text>The recommended level for this quest. Display purposes only.</Text>
+    </HelpEntry>
+    <HelpEntry item="Chain">
+      <Text>The name of the Quest Chain this Quest is a part of.</Text>
+    </HelpEntry>
+    <HelpEntry item="Is Repeatable">
+      <Text>Can the quest be done more than once.</Text>
+    </HelpEntry>
+    <HelpEntry item="Items Given">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Item 1-3">
+      <Text>Up to 3 items can be given to players upon starting a quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Quest Prerequisites">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Quest Completed">
+      <Text>A quest that must be completed before the player will be offered this quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Quest Started">
+      <Text>A quest that must have been started before the player will be offered this quest. A quest that is completed also meets this requirement.</Text>
+    </HelpEntry>
+    <HelpEntry item="Level">
+      <Text>What level the player must be before they are offered the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Race">
+      <Text>What race the player needs to be to get this quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Class">
+      <Text>What class the player must be to get this quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Skill">
+      <Text>What skill the player must have to start the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Skill Level">
+      <Text>What level the players skill needs to be to start the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Faction">
+      <Text>Choose a faction the player needs to have a certain stance with to be offered this quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Stance">
+      <Text>What stance the player needs to have to start this quest. Any stance greater than the one specified will count.</Text>
+    </HelpEntry>
+    <HelpEntry item="Objectives">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Add Objective">
+      <Text>Click this button to set another objective for the Quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Type">
+      <Text>The type of objective. item is used for Item Collection objectives and mob is used for Kill objectives where the player must kill the specified mob.</Text>
+    </HelpEntry>
+    <HelpEntry item="Target">
+      <Text>The Item or Mob this objective requires the player to collect or kill.</Text>
+    </HelpEntry>
+    <HelpEntry item="Count">
+      <Text>How many of the item or mob the player needs to collect or kill.</Text>
+    </HelpEntry>
+    <HelpEntry item="Text">
+      <Text>Write out the objective here that will be displayed in the players quest log.</Text>
+    </HelpEntry>
+    <HelpEntry item="Reward">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Experience">
+      <Text>The amount of experience points the player is awarded for completing the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Item 1 - 4">
+      <Text>An item the player is given upon completing the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Count">
+      <Text>How many of the item is given.</Text>
+    </HelpEntry>
+    <HelpEntry item="Item Choice 1 - 4">
+      <Text>The player can choose one of the listed choice items upon completing the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Faction 1 - 2">
+      <Text>What faction the players reputation will change with for completing the quest.</Text>
+    </HelpEntry>
+    <HelpEntry item="Rep">
+      <Text>The amount the players reputation changes by.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

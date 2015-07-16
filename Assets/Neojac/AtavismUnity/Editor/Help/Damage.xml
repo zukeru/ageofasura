@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the damage type.</Text>
+    </HelpEntry>
+    <HelpEntry item="Resistance Stat">
+      <Text>The resistance stat used when calculating damage done for attacks using this damage type.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

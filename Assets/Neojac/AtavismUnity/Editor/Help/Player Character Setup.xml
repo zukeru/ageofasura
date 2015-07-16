@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Character Race">
+      <Text>The Race of the Character Template. The options for this are set in the Option Choices plugin</Text>
+    </HelpEntry>
+    <HelpEntry item="Character Class">
+      <Text>The class of the character template. Options are defined in the Option Choices plugin.</Text>
+    </HelpEntry>
+    <HelpEntry item="Instance Name">
+      <Text>The instance where a character of the specified Class/Race spawns.</Text>
+    </HelpEntry>
+    <HelpEntry item="Spawn Location">
+      <Text>Where the character will spawn. An object can be dragged from the scene into the GameObject box, or manually specify the x/y/z coordinates.</Text>
+    </HelpEntry>
+    <HelpEntry item="Orientation">
+      <Text>The direction the character should face. Enter the desired angle around the y axis.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

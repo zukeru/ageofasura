@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the Ability.</Text>
+    </HelpEntry>
+    <HelpEntry item="Ability Type">
+      <Text>The type of Ability. Different types have different hit tests. CombatMelee is for physical attacks. MagicalAttack is for magical attacks. Effect is for abilities that apply effects to enemies. FriendlyEffect abilities will always hit and are for abilities used on friendly targets.</Text>
+    </HelpEntry>
+    <HelpEntry item="Skill">
+      <Text>The Skill this Ability is associated with. The higher level the players skill is, the more chance it has to hit.</Text>
+    </HelpEntry>
+    <HelpEntry item="Passive">
+      <Text>Passive abilities are applied automatically and do not require activation.</Text>
+    </HelpEntry>
+    <HelpEntry item="Icon">
+      <Text>The 2D Texture that will be displayed in the GUI for the Ability.</Text>
+    </HelpEntry>
+    <HelpEntry item="Activation Requirements">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Cost">
+      <Text>How much of the cost type is required to activate the ability (most commonly, how much mana is needed and used).</Text>
+    </HelpEntry>
+    <HelpEntry item="Cost Type">
+      <Text>The type of players resource used to activate the ability.</Text>
+    </HelpEntry>
+    <HelpEntry item="Length">
+      <Text>How long the player needs to stand still to activate the Ability (in seconds).</Text>
+    </HelpEntry>
+    <HelpEntry item="Caster Effect">
+      <Text>The Effect required on the caster to activate the Ability.</Text>
+    </HelpEntry>
+    <HelpEntry item="Target Effect">
+      <Text>The Effect required on the target to activate the Ability.</Text>
+    </HelpEntry>
+    <HelpEntry item="Is Consumed">
+      <Text>Is the effect on the caster/target removed when this Ability is activated.</Text>
+    </HelpEntry>
+    <HelpEntry item="Reagent">
+      <Text>The item the player must have to activate the Ability. If is Consumed ticked, the Item will be removed when the Ability is activated.</Text>
+    </HelpEntry>
+    <HelpEntry item="Weapon">
+      <Text>The type of Weapon the player must have equipped to activate the Ability.</Text>
+    </HelpEntry>
+    <HelpEntry item="Effect Area">
+      <Text>If the target type is set to AoE, the Effect Area specifies how big the area is that targets will be effected by the Ability.</Text>
+    </HelpEntry>
+    <HelpEntry item="Max Range">
+      <Text>The target must be no further away from the caster than the Max Range. In meters.</Text>
+    </HelpEntry>
+    <HelpEntry item="Min Range">
+      <Text>The target must be at least the Min Range in meters away from the caster.</Text>
+    </HelpEntry>
+    <HelpEntry item="Target Type">
+      <Text>The type of target used for the Ability. If it is left on None it will be able to be used on both enemies and friends.</Text>
+    </HelpEntry>
+    <HelpEntry item="Target State">
+      <Text>Whether the target needs to be alive or dead. </Text>
+    </HelpEntry>
+    <HelpEntry item="Species Target">
+      <Text>Whether the Ability can only be used on a certain Species.</Text>
+    </HelpEntry>
+    <HelpEntry item="Cooldown Attributes">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Global Cooldown">
+      <Text>Abilities that use the Global cooldown cannot be used within 1 second of another.</Text>
+    </HelpEntry>
+    <HelpEntry item="Weapon Cooldown">
+      <Text>Abilities that use the Weapon cooldown cannot be used within 3 seconds of another.</Text>
+    </HelpEntry>
+    <HelpEntry item="Cooldown Type">
+      <Text>A specific cooldown used to prevent an Ability (or multiple) from being used too quickly.</Text>
+    </HelpEntry>
+    <HelpEntry item="Duration">
+      <Text>How long the player has to wait before they can activate the ability (or any other using the same Cooldown Type) again.</Text>
+    </HelpEntry>
+    <HelpEntry item="Effects">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Act. Target">
+      <Text>Whether the specified Effect is applied to the Target or the Caster.</Text>
+    </HelpEntry>
+    <HelpEntry item="Act. Effect 1">
+      <Text>The Effect applied when the Ability is activated.</Text>
+    </HelpEntry>
+    <HelpEntry item="Coordinated Effects">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Effect Event">
+      <Text>What event in the Ability activation process the Coordinated Effect should be shown. Completed is the most common option.</Text>
+    </HelpEntry>
+    <HelpEntry item="Coord. Effect">
+      <Text>What Coordinated Effect to show at the specified event.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

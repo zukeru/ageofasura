@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The item template name.</Text>
+    </HelpEntry>
+    <HelpEntry item="Item Type">
+      <Text>Item type, like Weapon, Armor, Consumable.</Text>
+    </HelpEntry>
+    <HelpEntry item="Item Sub-type">
+      <Text>The kind of item like Sword for Weapon or Shield for Armor.</Text>
+    </HelpEntry>
+    <HelpEntry item="Icon">
+      <Text>The icon that will be drawn in the GUI for the item.</Text>
+    </HelpEntry>
+    <HelpEntry item="Equipment Display">
+      <Text>Drag a prefab that has an EquipmentDisplay component on it. Only used for Weapons and Armor to set how the item looks on the player when equipped.</Text>
+    </HelpEntry>
+    <HelpEntry item="Slot">
+      <Text>What slot the item is equipped to. Only used for Weapons and Armor.</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage Type">
+      <Text>The type of damage this weapon does. Only used for Weapons.</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage">
+      <Text>The amount of damage this weapon increases the player damage by.</Text>
+    </HelpEntry>
+    <HelpEntry item="Delay">
+      <Text>How long the player has to wait between Auto-Attacks when the weapon is equipped. Only used for Weapons.</Text>
+    </HelpEntry>
+    <HelpEntry item="Item Quality">
+      <Text>The quality of the item, higher quality items should be harder to find, and be more expensive. Does not have any effect by itself.</Text>
+    </HelpEntry>
+    <HelpEntry item="Binding">
+      <Text>Defines the binding behaviour of the item. Equip means the item cannot be given to another player once it has been equipped. Pickup means the item cannot be traded as soon as it has been picked up by the player.</Text>
+    </HelpEntry>
+    <HelpEntry item="Purchase Cost">
+      <Text>How much it costs to buy the item using the specified currency.</Text>
+    </HelpEntry>
+    <HelpEntry item="Currency">
+      <Text>What currency is used to buy and sell the item.</Text>
+    </HelpEntry>
+    <HelpEntry item="Is Item Sellable">
+      <Text>Can the item be sold.</Text>
+    </HelpEntry>
+    <HelpEntry item="Is Item Unique">
+      <Text>A player can only have one of an item that is unique.</Text>
+    </HelpEntry>
+    <HelpEntry item="Stack Limit">
+      <Text>How many of the item can be stacked together in a single item slot.</Text>
+    </HelpEntry>
+    <HelpEntry item="Tooltip">
+      <Text>A description of the item that players can view on the GUI</Text>
+    </HelpEntry>
+    <HelpEntry item="Item Effects">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Effect Type">
+      <Text>The type of effect the item has when equipped or used. Currently supports Stat (changes players stats when equipped), UseAbility (activates an ability when clicked), and AutoAttack (replaces the players AutoAttack when equipped).</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

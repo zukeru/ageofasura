@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the Skill.</Text>
+    </HelpEntry>
+    <HelpEntry item="Max Level">
+      <Text>The maximum level the Skill can get to.</Text>
+    </HelpEntry>
+    <HelpEntry item="Skill Point Cost">
+      <Text>How many Skill Points it costs to increase the Skill.</Text>
+    </HelpEntry>
+    <HelpEntry item="Automatically Learn">
+      <Text>Does the player automatically learn the skill as soon as the meet all the requirements for it.</Text>
+    </HelpEntry>
+    <HelpEntry item="Icon">
+      <Text>The 2D Texture displayed on the GUI for the Skill.</Text>
+    </HelpEntry>
+    <HelpEntry item="Skill Class">
+      <Text>The class the Skill is associated with. Skills are cheaper to learn if the player is of the same class.</Text>
+    </HelpEntry>
+    <HelpEntry item="Opposite Class">
+      <Text>The opposite class of the Skill. Skills are more expensive to learn if the player is of the opposite class.</Text>
+    </HelpEntry>
+    <HelpEntry item="Primary Stat">
+      <Text>The primary stat is increased by 1 for the player every 4 levels the Skill in increased.</Text>
+    </HelpEntry>
+    <HelpEntry item="Secondary Stat">
+      <Text>The secondary stat is increased by 1 for the player every 5 levels the skill is increased.</Text>
+    </HelpEntry>
+    <HelpEntry item="Third Stat">
+      <Text>The third stat is increased by 1 for the player every 6 levels the skill in increased.</Text>
+    </HelpEntry>
+    <HelpEntry item="Fourth Stat">
+      <Text>The fourth stat is increased by 1 for the player every 7 levels the skill is increased.</Text>
+    </HelpEntry>
+    <HelpEntry item="Requirements">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Parent Skill">
+      <Text>The player cannot learn this skill unless they have the Parent skill at the specified level. Parent skills are also increased each time a child is.</Text>
+    </HelpEntry>
+    <HelpEntry item="Prereq Skill">
+      <Text>The player must have reached the specified level of the Prereq skill to learn this skill.</Text>
+    </HelpEntry>
+    <HelpEntry item="Player Level Req">
+      <Text>The level the player must have reached to learn this skill.</Text>
+    </HelpEntry>
+    <HelpEntry item="Skill Abilities">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Level">
+      <Text>What level of the Skill the Ability is given at. A value of 0 or 1 will give the Ability as soon as the Skill is learned.</Text>
+    </HelpEntry>
+    <HelpEntry item="Ability">
+      <Text>The Ability the player learns.</Text>
+    </HelpEntry>
+    <HelpEntry item="Automatically Learn">
+      <Text>Is the ability automatically learnt when the Skill level specified is reached.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

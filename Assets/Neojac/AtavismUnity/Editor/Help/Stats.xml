@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the stat. Only set these at the start, changing them later in development can cause issues.</Text>
+    </HelpEntry>
+    <HelpEntry item="Stat Type">
+      <Text>Base Stats are your standard stat such as strength or intelligence. Resistance Stats are used in combat calculations to reduce damage taken. Vitality stats can change by themselves over time and cause actions such as death when reaching their min or max values.</Text>
+    </HelpEntry>
+    <HelpEntry item="Stat Function">
+      <Text>The role of the stat. You can specify which stat is used for different combat calculations.</Text>
+    </HelpEntry>
+    <HelpEntry item="Mob Values and Progression">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Base Value">
+      <Text>The value of the stat mobs have at level 0.</Text>
+    </HelpEntry>
+    <HelpEntry item="Increases by">
+      <Text>How much the stat goes up each level for mobs.</Text>
+    </HelpEntry>
+    <HelpEntry item="Percentage">
+      <Text>What percentage the stat increases per level for mobs.</Text>
+    </HelpEntry>
+    <HelpEntry item="Vitality Stat Settings">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Minimum">
+      <Text>The lowest value the stat can be. When the stat reaches this value the On Min Hit action is run.</Text>
+    </HelpEntry>
+    <HelpEntry item="Maximum">
+      <Text>The highest value the stat can be. When the stat reaches this value the On Max Hit action is run.</Text>
+    </HelpEntry>
+    <HelpEntry item="Player Only">
+      <Text>Does this stat only apply to players.</Text>
+    </HelpEntry>
+    <HelpEntry item="Shift Value">
+      <Text>How much the stat changes each time the interval has passed.</Text>
+    </HelpEntry>
+    <HelpEntry item="Reverse Value">
+      <Text>How much the stat changes each time the interval has passed when it is in reverse.</Text>
+    </HelpEntry>
+    <HelpEntry item="Shift Interval">
+      <Text>How long in seconds before the stat changes its value again by the Shift Value.</Text>
+    </HelpEntry>
+    <HelpEntry item="Shift Percentage">
+      <Text>Is the Shift Value/Reverse Value a percentage. If unticked it is a flat amount.</Text>
+    </HelpEntry>
+    <HelpEntry item="On Min Hit">
+      <Text>What happens when the stat gets down to the minimum value.</Text>
+    </HelpEntry>
+    <HelpEntry item="On Max Hit">
+      <Text>What happens when the stat reaches the maximum value.</Text>
+    </HelpEntry>
+    <HelpEntry item="Requirement">
+      <Text>What state the player/mob must have for this stat to update on the Shift Interval.</Text>
+    </HelpEntry>
+    <HelpEntry item="Req True">
+      <Text>Should the requirement be set to True or False.</Text>
+    </HelpEntry>
+    <HelpEntry item="Reverse if Failed">
+      <Text>If the requirement isn't met, should the shift go into reverse mode.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

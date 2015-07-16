@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the effect.</Text>
+    </HelpEntry>
+    <HelpEntry item="Effect Type">
+      <Text>Choose the type of effect. Can choose from Damage, Heal or Stat. Stat Effects can alter the stats of a player or mob.</Text>
+    </HelpEntry>
+    <HelpEntry item="Icon">
+      <Text>A 2D Texture that can be displayed in the UI for this effect. Only needs set if the effect has a duration.</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage Effect Properties">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Damage Type">
+      <Text>PhysicalDot and MagicalDot should be used for effects that deal damage over time.</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage Property">
+      <Text>Which stat is altered by this effect. Can be health or mana.</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage Type">
+      <Text>Choose the damage type this effect uses. This will set which resistance stat is used in the damage calculations.</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage Amount">
+      <Text>How much damage this ability will deal. If the effect is a Damage over Time effect, the damage will be split up by the number of pulses.
+</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage Modifier">
+      <Text>The multiplier applied to the final damage amount of the effect. Leave it as 1 for the normal damage amount to be applied.</Text>
+    </HelpEntry>
+    <HelpEntry item="Transfer Rate">
+      <Text>The rate of transfer of the damage property from the target to the caster. Leave as 0 for no damage. A value of 1 transfers the whole damage amount back as a heal to the caster.</Text>
+    </HelpEntry>
+    <HelpEntry item="Bonus Dmg Effect">
+      <Text>If the target has the Bonus Dmg Effect on them, this effect will deal extra damage (specified below)</Text>
+    </HelpEntry>
+    <HelpEntry item="Bonus Dmg Amount">
+      <Text>How much bonus damage is applied if the target has the Bonus Dmg Effect on them when this effect is run.</Text>
+    </HelpEntry>
+    <HelpEntry item="Heal Effect Properties">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Heal Type">
+      <Text>HealInstant applies the full heal instantly. HealOverTime applies the heal over time in pulses. HealthTransfer takes health from the caster and transfers it to the target.</Text>
+    </HelpEntry>
+    <HelpEntry item="Heal Amount">
+      <Text>The amount of healing this effect does.</Text>
+    </HelpEntry>
+    <HelpEntry item="Heal Property">
+      <Text>The stat that will be altered by this effect.</Text>
+    </HelpEntry>
+    <HelpEntry item="Transfer Rate">
+      <Text>Only used for HealthTransfer effects, the conversion rate effects how much health is transferred from the caster to the target.</Text>
+    </HelpEntry>
+    <HelpEntry item="Stat Properties">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Modify by Percent">
+      <Text>Whether the alterations on stats are percentage or flat number.</Text>
+    </HelpEntry>
+    <HelpEntry item="Stat #">
+      <Text>The stat that will be altered by this effect.</Text>
+    </HelpEntry>
+    <HelpEntry item="Modification">
+      <Text>How much the stat is being modified by.</Text>
+    </HelpEntry>
+    <HelpEntry item="Is Buff">
+      <Text>Is this effect a positive effect that enhances the target</Text>
+    </HelpEntry>
+    <HelpEntry item="Is passive">
+      <Text>Is the effect a passive one that is automatically applied without needing activation.</Text>
+    </HelpEntry>
+    <HelpEntry item="Skill Type">
+      <Text>What skill this effect is associated with. It can effect the power of the effect.</Text>
+    </HelpEntry>
+    <HelpEntry item="Skill Mod">
+      <Text>The modifier power of the skill on the effect. For example, a value of 1 means it will deal 1 more damage for every skill point in that skill.</Text>
+    </HelpEntry>
+    <HelpEntry item="Stack Limit">
+      <Text>How many times the effect can be stacked on the target. Only applies to effects with a duration.</Text>
+    </HelpEntry>
+    <HelpEntry item="Allow Multiple">
+      <Text>Can multiple stacks of this effect be on the target at once. Only useful on effects with a duration.</Text>
+    </HelpEntry>
+    <HelpEntry item="Duration">
+      <Text>How long the effect lasts on the target.</Text>
+    </HelpEntry>
+    <HelpEntry item="Num Pulses">
+      <Text>Used for over time effects. How many times it will apply the damage or heal during its duration.</Text>
+    </HelpEntry>
+    <HelpEntry item="Pulse Particle">
+      <Text>Not currently active. </Text>
+    </HelpEntry>
+    <HelpEntry item="Tooltip">
+      <Text>A description of the effect that can be displayed on the UI for effects with a duration.</Text>
+    </HelpEntry>
+    <HelpEntry item="Bonus Effects">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Required Effect">
+      <Text>The effect required on the target for the Bonus Effect to be applied.</Text>
+    </HelpEntry>
+    <HelpEntry item="Bonus Effect">
+      <Text>The effect that will be applied to the target is the required effect exists.</Text>
+    </HelpEntry>
+    <HelpEntry item="Is Consumed">
+      <Text>Is the required effect removed from the target when the bonus effect is applied.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

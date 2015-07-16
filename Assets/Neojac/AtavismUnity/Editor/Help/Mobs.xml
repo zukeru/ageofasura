@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the Mob that will appear above their head</Text>
+    </HelpEntry>
+    <HelpEntry item="Subtitle">
+      <Text>Used to indicate the role of the mob, appears under the name of the mob.</Text>
+    </HelpEntry>
+    <HelpEntry item="GameObject">
+      <Text>The prefab of the mob that will be used in the world.v Should contain a model and a MobController script.</Text>
+    </HelpEntry>
+    <HelpEntry item="Species">
+      <Text>The species of the mob. An ability can be set to only work on some species.</Text>
+    </HelpEntry>
+    <HelpEntry item="Subspecies">
+      <Text>For cosmetic purposes only. This can be referenced in the UI.</Text>
+    </HelpEntry>
+    <HelpEntry item="Mob Type">
+      <Text>Determines how the mob is displayed in the world. Untargetable is used for mobs that have no interaction.</Text>
+    </HelpEntry>
+    <HelpEntry item="Faction">
+      <Text>What faction the mob belongs to. This will influence how the mob reacts to players and other mobs.</Text>
+    </HelpEntry>
+    <HelpEntry item="Scale">
+      <Text>The scale/size of the mob. A scale of 1 will display the mob at the same size as the prefab.</Text>
+    </HelpEntry>
+    <HelpEntry item="Hit Range">
+      <Text>How many metres away the mob can be hit from.</Text>
+    </HelpEntry>
+    <HelpEntry item="Walk Speed">
+      <Text>How fast, in metres per second, the mob walks. The mob walks when roaming and patrolling.</Text>
+    </HelpEntry>
+    <HelpEntry item="Run Speed">
+      <Text>How fast, in metres per second, the mob runs. The mob runs when in combat.</Text>
+    </HelpEntry>
+    <HelpEntry item="Prim. Weapon">
+      <Text>What item is in the mob's Main Hand. This will increase the damage to mob deals.</Text>
+    </HelpEntry>
+    <HelpEntry item="Sec. Weapon">
+      <Text>What item is in the mob's Off Hand. If it is a weapon the mob will begin dual-wielding</Text>
+    </HelpEntry>
+    <HelpEntry item="Base Animation">
+      <Text>What state of idle animation the mob will play by default.</Text>
+    </HelpEntry>
+    <HelpEntry item="Level">
+      <Text>The combat level of the mob. This will influence the strength of the mob in combat</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage">
+      <Text>The base amount of damage the mob deals. This is not the final damage amount.</Text>
+    </HelpEntry>
+    <HelpEntry item="Is Mob Attackable">
+      <Text>Can the mob be attacked.</Text>
+    </HelpEntry>
+    <HelpEntry item="Attack Speed">
+      <Text>How fast in seconds the mob performs Auto-Attacks.</Text>
+    </HelpEntry>
+    <HelpEntry item="Damage Type">
+      <Text>The type of damage the mob deals with their Auto-Attack.</Text>
+    </HelpEntry>
+    <HelpEntry item="Quest Category">
+      <Text>Used to allow a group of mobs to be set as a target for a Quest Objective.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Database Host">
+      <Text>Database server URL.</Text>
+    </HelpEntry>
+    <HelpEntry item="Database Name">
+      <Text>Database name at the server.</Text>
+    </HelpEntry>
+    <HelpEntry item="Database User">
+      <Text>Database user name to access the database.</Text>
+    </HelpEntry>
+    <HelpEntry item="Database Password">
+      <Text>Database password to access the database.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

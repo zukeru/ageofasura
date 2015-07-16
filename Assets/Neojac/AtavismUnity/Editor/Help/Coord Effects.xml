@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name used to indentify this Coord Effect.</Text>
+    </HelpEntry>
+    <HelpEntry item="Game Object">
+      <Text>The Prefab that will be used when this Coordinated Effect is activated. The Prefab should have one or more Coordinated Effect components on it.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

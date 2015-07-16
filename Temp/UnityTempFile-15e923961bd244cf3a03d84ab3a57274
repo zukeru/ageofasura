@@ -1,0 +1,185 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp-Editor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'Library/ScriptAssemblies/Assembly-UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/BlackBerryPlayer/UnityEditor.BB10.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/STVPlayer/STVPlayer/UnityEditor.SamsungTV.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'Assets/Neojac/AtavismUnity/Editor/Interfaces/System.Data.dll'
+-r:'Assets/Neojac/AtavismUnity/Editor/AtavismEditor.dll'
+-r:'Assets/Neojac/Standard Assets/Atavism Core/System.Threading.dll'
+-r:'Assets/Neojac/AtavismUnity/Editor/Interfaces/MySql.Data.dll'
+-r:'Assets/Neojac/Standard Assets/Atavism Core/AtavismCore.dll'
+-r:'Assets/Neojac/AtavismUnity/Editor/Interfaces/System.Drawing.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-define:UNITY_5_1_1
+-define:UNITY_5_1
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PHYSICS_PHYSX3
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_AUDIOMIXER_SUSPEND
+-define:ENABLE_EDITOR_METRICS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:CROSS_PLATFORM_INPUT
+'Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs'
+'Assets/Editor/ImageEffects/AntialiasingEditor.cs'
+'Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs'
+'Assets/Editor/ImageEffects/BloomEditor.cs'
+'Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs'
+'Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs'
+'Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs'
+'Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs'
+'Assets/Editor/ImageEffects/DepthOfFieldEditor.cs'
+'Assets/Editor/ImageEffects/EdgeDetectionEditor.cs'
+'Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs'
+'Assets/Editor/ImageEffects/SunShaftsEditor.cs'
+'Assets/Editor/ImageEffects/TonemappingEditor.cs'
+'Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs'
+'Assets/Neojac/AtavismObjects/Editor/AtavismNavMeshEditor.cs'
+'Assets/Neojac/AtavismObjects/Editor/DetourActorEditor.cs'
+'Assets/Neojac/AtavismObjects/Editor/NavTileEditor.cs'
+'Assets/Neojac/AtavismObjects/Editor/OffMeshConnectorEditor.cs'
+'Assets/Neojac/AtavismObjects/Editor/RecastNavMeshQueryEditor.cs'
+'Assets/Neojac/AtavismUnity/Editor/AtavismDatabaseFunction.cs'
+'Assets/Neojac/AtavismUnity/Editor/AtavismUnityUtility.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/AbilitiesData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/AccountData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/AtavismEditorOption.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/AtavismGameSetting.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/CharData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/CharItemsData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/CharSkillsData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/CharStatsData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/CoordEffectData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/CraftingRecipeData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/CurrencyData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/DamageData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/DataStructure.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/DialogueData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/EffectsDamageData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/EffectsData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/EffectsHealData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/EffectsStatData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/Empty.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/FactionData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/Instance.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/ItemData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/LevelData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/LootTable.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/MerchantTable.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/Mob.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/MobLoot.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/QuestsData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/SkillsData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Data Structures/StatsData.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/CharacterPlugin.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/CombatPlugin.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ItemsPlugin.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/MobsPlugin.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerAbilities.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerAccounts.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerCharacter.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerCoordEffects.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerCraftingRecipes.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerCurrency.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerDamage.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerDataBase.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerDialogues.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerEffects.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerFactions.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerInstances.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerItems.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerLevelXp.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerLootTables.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerMerchantTables.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerMobs.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerNavMesh.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerOptionChoices.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerPlugin.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerQuests.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerResourceNodes.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerSkills.cs'
+'Assets/Neojac/AtavismUnity/Editor/Plugins/ServerStats.cs'
+'Assets/Neojac/AtavismUnity/Editor/Prefab Interface/AbilityPrefab.cs'
+'Assets/Neojac/AtavismUnity/Editor/Prefab Interface/CurrencyPrefab.cs'
+'Assets/Neojac/AtavismUnity/Editor/Prefab Interface/ItemPrefab.cs'
+'Assets/Neojac/AtavismUnity/Editor/Prefab Interface/SkillPrefab.cs'
+'Assets/Neojac/Standard Assets/Editor/Water (Pro Only)/Water4/GerstnerDisplaceEditor.cs'
+'Assets/Neojac/Standard Assets/Editor/Water (Pro Only)/Water4/PlanarReflectionEditor.cs'
+'Assets/Neojac/Standard Assets/Editor/Water (Pro Only)/Water4/SpecularLightingEditor.cs'
+'Assets/Neojac/Standard Assets/Editor/Water (Pro Only)/Water4/WaterBaseEditor.cs'
+'Assets/Neojac/Standard Assets/Editor/Water (Pro Only)/Water4/WaterEditorUtility.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.Linq.dll'

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the Dialogue. Depending on the Dialogue, this may appear in the list of options from an NPC.</Text>
+    </HelpEntry>
+    <HelpEntry item="Opening Dialogue">
+      <Text>Is this Dialogue one that an NPC can offer to a player, or is it one that is given as the response to the Dialogue Action the player chooses.</Text>
+    </HelpEntry>
+    <HelpEntry item="Repeatable">
+      <Text>Can the Dialogue be given to a player more than once?</Text>
+    </HelpEntry>
+    <HelpEntry item="Prereq Dialogue">
+      <Text>Specify which Dialogue the player must have already read before they can be given this one.</Text>
+    </HelpEntry>
+    <HelpEntry item="Prereq Quest">
+      <Text>Specify which Quest the player must have completed before they are offered this Dialogue.</Text>
+    </HelpEntry>
+    <HelpEntry item="Prereq Faction">
+      <Text>What faction the player must have a specified stance with to be offered this Dialogue.</Text>
+    </HelpEntry>
+    <HelpEntry item="Prereq Stance">
+      <Text>The stance the player must have with the specified Faction to be offered this Dialogue.</Text>
+    </HelpEntry>
+    <HelpEntry item="Text">
+      <Text>The dialogue text, as in, what the NPC is saying to the player.</Text>
+    </HelpEntry>
+    <HelpEntry item="Action">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Text">
+      <Text>The text displayed for the Action. It should usually be in the form of a response to the text of the Dialogue.</Text>
+    </HelpEntry>
+    <HelpEntry item="Action Type">
+      <Text>The type of Action. Currently only Dialogue is supported. Quests and Abilities coming soon.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

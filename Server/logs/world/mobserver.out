@@ -1,0 +1,652 @@
+INFO  [2015-07-16 12:29:22,504] main                 pid 31524@Kenzans-MacBook-Pro.local
+DEBUG [2015-07-16 12:29:22,508] main                 Using property file ../bin/world.properties
+DEBUG [2015-07-16 12:29:22,508] main                 Properties are:
+DEBUG [2015-07-16 12:29:22,509] main                     java.vendor = Oracle Corporation
+DEBUG [2015-07-16 12:29:22,509] main                     log4j.appender.FILE = org.apache.log4j.RollingFileAppender
+DEBUG [2015-07-16 12:29:22,509] main                     atavism.plugin_dep.sampleworld.MobManager = ObjectManager,WorldManager,Inventory,Quest,Combat
+DEBUG [2015-07-16 12:29:22,509] main                     sun.java.launcher = SUN_STANDARD
+DEBUG [2015-07-16 12:29:22,509] main                     atavism.plugin_dep.Proxy = Instance
+DEBUG [2015-07-16 12:29:22,509] main                     log4j.appender.ErrorLog.File = ${atavism.logs}/errors.out
+DEBUG [2015-07-16 12:29:22,509] main                     sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+DEBUG [2015-07-16 12:29:22,509] main                     ### = Server host names and ports
+DEBUG [2015-07-16 12:29:22,509] main                     atavism.plugin_dep.WorldManager = 
+DEBUG [2015-07-16 12:29:22,509] main                     os.name = Mac OS X
+DEBUG [2015-07-16 12:29:22,509] main                     atavism.plugin_dep.Quest = 
+DEBUG [2015-07-16 12:29:22,509] main                     sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/classes
+DEBUG [2015-07-16 12:29:22,509] main                     atavism.service_user = mgttest
+DEBUG [2015-07-16 12:29:22,509] main                     atavism.flashpolicy.bindaddress = localhost
+DEBUG [2015-07-16 12:29:22,509] main                     java.vm.specification.vendor = Oracle Corporation
+DEBUG [2015-07-16 12:29:22,509] main                     java.runtime.version = 1.7.0_80-ea-b05
+DEBUG [2015-07-16 12:29:22,509] main                     atavism.proxy.bindport = 5050
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.flashpolicy.bindport = 5041
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.voiceserver = :same
+DEBUG [2015-07-16 12:29:22,510] main                     user.name = grantzukel
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.db_user = root
+DEBUG [2015-07-16 12:29:22,510] main                     log4j.appender.ErrorLog.MaxBackupIndex = 3
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.msgsvr_port = 20377
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.jdbcJarPath = ../other/mysql-connector-java-3.1.14-bin.jar
+DEBUG [2015-07-16 12:29:22,510] main                     user.language = en
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.startup_timeout = 120
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.plugin_dep.Trainer = 
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.log_rdp_counters = false
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.db_type = mysql
+DEBUG [2015-07-16 12:29:22,510] main                     sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.db_driver = com.mysql.jdbc.Driver
+DEBUG [2015-07-16 12:29:22,510] main                     atavism.service_password = mgttestpass
+DEBUG [2015-07-16 12:29:22,510] main                     java.version = 1.7.0_80-ea
+DEBUG [2015-07-16 12:29:22,510] main                     log4j.rootLogger = DEBUG, FILE, ErrorLog
+DEBUG [2015-07-16 12:29:22,511] main                     user.timezone = America/Denver
+DEBUG [2015-07-16 12:29:22,511] main                     log4j.appender.ErrorLog.MaxFileSize = 50MB
+DEBUG [2015-07-16 12:29:22,511] main                     atavism.plugin_dep.Domain = Instance,Proxy
+DEBUG [2015-07-16 12:29:22,511] main                     sun.arch.data.model = 64
+DEBUG [2015-07-16 12:29:22,511] main                     http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+DEBUG [2015-07-16 12:29:22,511] main                     java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/endorsed
+DEBUG [2015-07-16 12:29:22,511] main                     atavism.db_name = atavism
+DEBUG [2015-07-16 12:29:22,511] main                     sun.cpu.isalist = 
+DEBUG [2015-07-16 12:29:22,511] main                     sun.jnu.encoding = UTF-8
+DEBUG [2015-07-16 12:29:22,511] main                     atavism.worldname = world
+DEBUG [2015-07-16 12:29:22,511] main                     file.encoding.pkg = sun.io
+DEBUG [2015-07-16 12:29:22,511] main                     atavism.create_island_url_local = localhost
+DEBUG [2015-07-16 12:29:22,511] main                     file.separator = /
+DEBUG [2015-07-16 12:29:22,511] main                     java.specification.name = Java Platform API Specification
+DEBUG [2015-07-16 12:29:22,511] main                     atavism.proxy.bindaddress = localhost
+DEBUG [2015-07-16 12:29:22,511] main                     java.class.version = 51.0
+DEBUG [2015-07-16 12:29:22,511] main                     log4j.appender.FILE.layout = org.apache.log4j.PatternLayout
+DEBUG [2015-07-16 12:29:22,511] main                     user.country = US
+DEBUG [2015-07-16 12:29:22,511] main                     atavism.plugin_dep.Combat = 
+DEBUG [2015-07-16 12:29:22,512] main                     java.home = /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre
+DEBUG [2015-07-16 12:29:22,512] main                     atavism.plugin_dep.ClassAbility = 
+DEBUG [2015-07-16 12:29:22,512] main                     java.vm.info = mixed mode
+DEBUG [2015-07-16 12:29:22,512] main                     os.version = 10.10.3
+DEBUG [2015-07-16 12:29:22,512] main                     atavism.plugin_dep.Login = ObjectManager,Instance
+DEBUG [2015-07-16 12:29:22,512] main                     atavism.precreated_positional_voice_group = 1
+DEBUG [2015-07-16 12:29:22,512] main                     path.separator = :
+DEBUG [2015-07-16 12:29:22,512] main                     log4j.appender.ErrorLog.layout.ConversionPattern = %-5p [%d{ISO8601}] %-20t %m%n
+DEBUG [2015-07-16 12:29:22,512] main                     atavism.plugin_dep.Social = 
+DEBUG [2015-07-16 12:29:22,512] main                     java.vm.version = 24.80-b07
+DEBUG [2015-07-16 12:29:22,512] main                     atavism.create_island_url_remote = localhost
+DEBUG [2015-07-16 12:29:22,512] main                     atavism.logs = ../logs/world
+DEBUG [2015-07-16 12:29:22,512] main                     atavism.plugin_dep.Inventory = 
+DEBUG [2015-07-16 12:29:22,512] main                     java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+DEBUG [2015-07-16 12:29:22,512] main                     log4j.appender.FILE.File = ${atavism.logs}/${atavism.loggername}.out
+DEBUG [2015-07-16 12:29:22,512] main                     sun.io.unicode.encoding = UnicodeBig
+DEBUG [2015-07-16 12:29:22,512] main                     atavism.db_hostname = localhost
+DEBUG [2015-07-16 12:29:22,512] main                     awt.toolkit = sun.lwawt.macosx.LWCToolkit
+DEBUG [2015-07-16 12:29:22,512] main                     socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+DEBUG [2015-07-16 12:29:22,512] main                     ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+DEBUG [2015-07-16 12:29:22,513] main                     user.home = /Users/grantzukel
+DEBUG [2015-07-16 12:29:22,513] main                     java.specification.vendor = Oracle Corporation
+DEBUG [2015-07-16 12:29:22,513] main                     atavism.voiceport = 5067
+DEBUG [2015-07-16 12:29:22,513] main                     java.library.path = /Users/grantzukel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+DEBUG [2015-07-16 12:29:22,513] main                     java.vendor.url = http://java.oracle.com/
+DEBUG [2015-07-16 12:29:22,513] main                     java.vm.vendor = Oracle Corporation
+DEBUG [2015-07-16 12:29:22,513] main                     gopherProxySet = false
+DEBUG [2015-07-16 12:29:22,513] main                     atavism.service_endpoint = localhost
+DEBUG [2015-07-16 12:29:22,513] main                     atavism.world_files_url = localhost
+DEBUG [2015-07-16 12:29:22,513] main                     atavism.msgsvr_hostname = localhost
+DEBUG [2015-07-16 12:29:22,513] main                     java.runtime.name = Java(TM) SE Runtime Environment
+DEBUG [2015-07-16 12:29:22,513] main                     sun.java.command = atavism.server.engine.Engine -Patavism.worldname=world -i ../bin/mobserver_local.py -i ../config/common/aomessages.py -i ../config/world/worldmessages.py -t ../config/common/typenumbers.txt ../config/common/global_props.py ../config/world/global_props.py ../config/common/mobserver_init.py ../config/world/mobserver_init.py ../config/common/questplugin.py ../config/world/factionplugin.py ../config/world/socialplugin.py ../config/common/mobserver.py ../config/world/mobserver.py ../config/world/extensions_mobserver.py
+DEBUG [2015-07-16 12:29:22,513] main                     java.class.path = ../other/rhino1_5R5/js.jar:../other/mysql-connector-java-3.1.14-bin.jar:../dist/lib/injected.jar:../dist/lib/atavism.jar:../dist/lib/agis.jar:../config/world/world.jar:../other/java-getopt-1.0.11.jar:../other/jython.jar:../other/log4j-1.2.15.jar:../other/bcel-5.2.jar:../other/mbsclient.jar:../other/slf4j-api-1.5.6.jar:../other/slf4j-log4j12-1.5.6.jar:../other/shiro-core-1.0-incubating-SNAPSHOT.jar:../other/json_simple-1.1.jar:.
+DEBUG [2015-07-16 12:29:22,513] main                     log4j.appender.FILE.MaxBackupIndex = 3
+DEBUG [2015-07-16 12:29:22,513] main                     atavism.plugin_dep.Voxel = 
+DEBUG [2015-07-16 12:29:22,513] main                     java.vm.specification.name = Java Virtual Machine Specification
+DEBUG [2015-07-16 12:29:22,514] main                     log4j.appender.ErrorLog = org.apache.log4j.RollingFileAppender
+DEBUG [2015-07-16 12:29:22,514] main                     java.vm.specification.version = 1.7
+DEBUG [2015-07-16 12:29:22,514] main                     atavism.rotate_logs_on_startup = true
+DEBUG [2015-07-16 12:29:22,514] main                     sun.cpu.endian = little
+DEBUG [2015-07-16 12:29:22,514] main                     sun.os.patch.level = unknown
+DEBUG [2015-07-16 12:29:22,515] main                     java.io.tmpdir = /var/folders/pd/k1vlw2s976vbrw20vhs0s_740000gp/T/
+DEBUG [2015-07-16 12:29:22,515] main                     atavism.plugin_dep.MobManager = ObjectManager,WorldManager,Inventory,Quest,Social
+DEBUG [2015-07-16 12:29:22,515] main                     atavism.log_proxy_histograms = true
+DEBUG [2015-07-16 12:29:22,515] main                     java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+DEBUG [2015-07-16 12:29:22,515] main                     log4j.appender.FILE.MaxFileSize = 50MB
+DEBUG [2015-07-16 12:29:22,515] main                     atavism.loggername = mobserver
+DEBUG [2015-07-16 12:29:22,515] main                     os.arch = x86_64
+DEBUG [2015-07-16 12:29:22,515] main                     java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+DEBUG [2015-07-16 12:29:22,516] main                     log4j.appender.FILE.layout.ConversionPattern = %-5p [%d{ISO8601}] %-20t %m%n
+DEBUG [2015-07-16 12:29:22,516] main                     java.ext.dirs = /Users/grantzukel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+DEBUG [2015-07-16 12:29:22,516] main                     user.dir = /Users/grantzukel/AgeofAsura/Server/bin
+DEBUG [2015-07-16 12:29:22,516] main                     atavism.world_available_message = DONE INITIALIZING, you can log in now
+DEBUG [2015-07-16 12:29:22,516] main                     atavism.worldmgrport = 5040
+DEBUG [2015-07-16 12:29:22,516] main                     line.separator = 
+
+DEBUG [2015-07-16 12:29:22,516] main                     java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+DEBUG [2015-07-16 12:29:22,517] main                     atavism.plugin_dep.Instance = ObjectManager,Quest,MobManager,Inventory,WorldManager
+DEBUG [2015-07-16 12:29:22,517] main                     atavism.propertyfile = ../bin/world.properties
+DEBUG [2015-07-16 12:29:22,517] main                     atavism.plugin_dep.ObjectManager = 
+DEBUG [2015-07-16 12:29:22,517] main                     atavism.db_password = 
+DEBUG [2015-07-16 12:29:22,517] main                     atavism.plugin_dep.Arena = 
+DEBUG [2015-07-16 12:29:22,517] main                     file.encoding = UTF-8
+DEBUG [2015-07-16 12:29:22,517] main                     atavism.log_level = 1
+DEBUG [2015-07-16 12:29:22,517] main                     log4j.appender.ErrorLog.Threshold = ERROR
+DEBUG [2015-07-16 12:29:22,517] main                     log4j.appender.ErrorLog.layout = org.apache.log4j.PatternLayout
+DEBUG [2015-07-16 12:29:22,518] main                     atavism.plugin_dep.Vendor = 
+DEBUG [2015-07-16 12:29:22,518] main                     atavism.log_voice_counters = true
+DEBUG [2015-07-16 12:29:22,518] main                     java.specification.version = 1.7
+DEBUG [2015-07-16 12:29:22,518] main                     atavism.plugin_dep.DataLogger = 
+INFO  [2015-07-16 12:29:22,518] main                 The log level is 1
+INFO  [2015-07-16 12:29:22,520] main                 Atavism server version 2.4 0 (- -)
+INFO  [2015-07-16 12:29:22,521] main                 Entered MarshallingRuntime.initializeBatch: reading type nums from '../config/common/typenumbers.txt'
+INFO  [2015-07-16 12:29:22,535] main                 Added marshaller for class :class atavism.msgsys.TargetFilter with typeNum: 46
+INFO  [2015-07-16 12:29:22,537] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$sendPetCommandMessage with typeNum: 319
+INFO  [2015-07-16 12:29:22,538] main                 Added marshaller for class :class atavism.server.objects.NamedPropertyClass with typeNum: 126
+INFO  [2015-07-16 12:29:22,539] main                 Added marshaller for class :class atavism.msgsys.MessageType with typeNum: 101
+INFO  [2015-07-16 12:29:22,541] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$FogMessage with typeNum: 191
+INFO  [2015-07-16 12:29:22,542] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$MobPathMessage with typeNum: 195
+INFO  [2015-07-16 12:29:22,544] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelStartMessage with typeNum: 304
+INFO  [2015-07-16 12:29:22,544] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$QuestItemUpdateMessage with typeNum: 256
+INFO  [2015-07-16 12:29:22,545] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$StartNpcInteractionMessage with typeNum: 328
+INFO  [2015-07-16 12:29:22,545] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SaveObjectMessage with typeNum: 168
+INFO  [2015-07-16 12:29:22,546] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$FreeRoadMessage with typeNum: 193
+INFO  [2015-07-16 12:29:22,547] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$HostInstanceFilter with typeNum: 233
+INFO  [2015-07-16 12:29:22,548] main                 Added marshaller for class :class atavism.agis.plugins.GroupClient$createGroupMessage with typeNum: 311
+INFO  [2015-07-16 12:29:22,550] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$QuestMobDeath with typeNum: 241
+INFO  [2015-07-16 12:29:22,552] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$GenerateSubObjectMessage with typeNum: 162
+INFO  [2015-07-16 12:29:22,552] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ComReqMessage with typeNum: 183
+INFO  [2015-07-16 12:29:22,553] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$placeBagMessage with typeNum: 268
+INFO  [2015-07-16 12:29:22,553] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$ActivateMessage with typeNum: 154
+INFO  [2015-07-16 12:29:22,554] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$getGenericItemDataMessage with typeNum: 266
+INFO  [2015-07-16 12:29:22,555] main                 Added marshaller for class :class atavism.server.math.Quaternion with typeNum: 80
+INFO  [2015-07-16 12:29:22,555] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$GetTemplateMessage with typeNum: 172
+INFO  [2015-07-16 12:29:22,556] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$DeleteObjectMessage with typeNum: 175
+INFO  [2015-07-16 12:29:22,556] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$generateItemMessage with typeNum: 267
+INFO  [2015-07-16 12:29:22,557] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$WorldManagerFilter with typeNum: 231
+INFO  [2015-07-16 12:29:22,558] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillGetMessage with typeNum: 288
+INFO  [2015-07-16 12:29:22,559] main                 Added marshaller for class :class atavism.msgsys.StringResponseMessage with typeNum: 55
+INFO  [2015-07-16 12:29:22,560] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SoundMessage with typeNum: 215
+INFO  [2015-07-16 12:29:22,560] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$CombatLogoutMessage with typeNum: 246
+INFO  [2015-07-16 12:29:22,605] main                 Added marshaller for class :class atavism.server.objects.PointLight with typeNum: 130
+INFO  [2015-07-16 12:29:22,605] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$alterCurrencyMessage with typeNum: 281
+INFO  [2015-07-16 12:29:22,606] main                 Added marshaller for class :class atavism.server.engine.Perceiver with typeNum: 72
+INFO  [2015-07-16 12:29:22,606] main                 Added marshaller for class :class atavism.msgsys.FilterUpdate$Instruction with typeNum: 32
+INFO  [2015-07-16 12:29:22,607] main                 Added marshaller for class :class atavism.server.messages.PopulationFilter with typeNum: 108
+INFO  [2015-07-16 12:29:22,607] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$categoryUpdatedMessage with typeNum: 326
+INFO  [2015-07-16 12:29:22,608] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$getMerchantListMessage with typeNum: 275
+INFO  [2015-07-16 12:29:22,608] main                 Added marshaller for class :class atavism.server.plugins.ProxyPlugin$AddStaticPerceptionMessage with typeNum: 240
+INFO  [2015-07-16 12:29:22,609] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$InstanceEntryReqMessage with typeNum: 150
+INFO  [2015-07-16 12:29:22,609] main                 Added marshaller for class :class atavism.msgsys.FilterUpdate with typeNum: 31
+INFO  [2015-07-16 12:29:22,610] main                 Added marshaller for class :class atavism.agis.plugins.DataLoggerClient$DataLogMessage with typeNum: 331
+INFO  [2015-07-16 12:29:22,610] main                 Added marshaller for class :class atavism.msgsys.TargetMessage with typeNum: 40
+INFO  [2015-07-16 12:29:22,610] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$FixWorldNodeMessage with typeNum: 177
+INFO  [2015-07-16 12:29:22,611] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$StopCommandMessage with typeNum: 60
+INFO  [2015-07-16 12:29:22,612] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeDisconnectMessage with typeNum: 302
+INFO  [2015-07-16 12:29:22,612] main                 Added marshaller for class :class atavism.server.objects.Boundary with typeNum: 112
+INFO  [2015-07-16 12:29:22,612] main                 Added marshaller for class :class atavism.server.objects.DisplayContext with typeNum: 115
+INFO  [2015-07-16 12:29:22,613] main                 Added marshaller for class :class atavism.server.objects.RoadSegment with typeNum: 136
+INFO  [2015-07-16 12:29:22,613] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$GotoCommandMessage with typeNum: 59
+INFO  [2015-07-16 12:29:22,614] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelRemoveMessage with typeNum: 307
+INFO  [2015-07-16 12:29:22,614] main                 Added marshaller for class :class atavism.server.math.Point with typeNum: 79
+INFO  [2015-07-16 12:29:22,614] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$FactionUpdateMessage with typeNum: 247
+INFO  [2015-07-16 12:29:22,614] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$LootAllMessage with typeNum: 159
+INFO  [2015-07-16 12:29:22,615] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$ObjectStatus with typeNum: 179
+INFO  [2015-07-16 12:29:22,616] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$RoadMessage with typeNum: 212
+INFO  [2015-07-16 12:29:22,626] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$getArenaStatsMessage with typeNum: 291
+INFO  [2015-07-16 12:29:22,628] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$removeGenericItemMessage with typeNum: 264
+INFO  [2015-07-16 12:29:22,629] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$ConcludeUpdateMessage with typeNum: 260
+INFO  [2015-07-16 12:29:22,629] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$purchaseItemFromMerchantMessage with typeNum: 276
+INFO  [2015-07-16 12:29:22,634] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SysChatMessage with typeNum: 218
+INFO  [2015-07-16 12:29:22,635] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$UnloadObjectMessage with typeNum: 173
+INFO  [2015-07-16 12:29:22,635] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillDecreasedMessage with typeNum: 285
+INFO  [2015-07-16 12:29:22,635] main                 Added marshaller for class :class atavism.msgsys.StackFrame with typeNum: 54
+INFO  [2015-07-16 12:29:22,636] main                 Added marshaller for class :class atavism.server.messages.SearchMessage with typeNum: 106
+INFO  [2015-07-16 12:29:22,636] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$GenerateObjectMessage with typeNum: 161
+INFO  [2015-07-16 12:29:22,637] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeAcceptMessage with typeNum: 300
+INFO  [2015-07-16 12:29:22,638] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ModifyDisplayContextMessage with typeNum: 198
+INFO  [2015-07-16 12:29:22,638] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DirLocOrientMessage with typeNum: 187
+INFO  [2015-07-16 12:29:22,639] main                 Added marshaller for class :class atavism.server.messages.SubObjectFilter with typeNum: 98
+INFO  [2015-07-16 12:29:22,640] main                 Added marshaller for class :class atavism.server.pathing.PathInfo with typeNum: 85
+INFO  [2015-07-16 12:29:22,640] main                 Added marshaller for class :class atavism.msgsys.AwaitPluginDependentsMessage with typeNum: 50
+INFO  [2015-07-16 12:29:22,641] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ObjInfoRespMessage with typeNum: 204
+INFO  [2015-07-16 12:29:22,642] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$SpawnInstanceMobsMessage with typeNum: 313
+INFO  [2015-07-16 12:29:22,643] main                 Added marshaller for class :class atavism.msgsys.AllocNameMessage with typeNum: 102
+INFO  [2015-07-16 12:29:22,643] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SetAmbientLightMessage with typeNum: 213
+INFO  [2015-07-16 12:29:22,644] main                 Added marshaller for class :class atavism.server.objects.Region$Search with typeNum: 132
+INFO  [2015-07-16 12:29:22,645] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SetPersistenceMessage with typeNum: 169
+INFO  [2015-07-16 12:29:22,645] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DisplayContextReqMessage with typeNum: 189
+INFO  [2015-07-16 12:29:22,649] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$TargetedPropertyMessage with typeNum: 220
+INFO  [2015-07-16 12:29:22,649] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$DeleteSubObjectMessage with typeNum: 176
+INFO  [2015-07-16 12:29:22,650] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$FreeRemoteObjectMessage with typeNum: 192
+INFO  [2015-07-16 12:29:22,651] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$spawnPetMessage with typeNum: 316
+INFO  [2015-07-16 12:29:22,652] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ReparentWNodeReqMessage with typeNum: 210
+INFO  [2015-07-16 12:29:22,652] main                 Added marshaller for class :class atavism.server.engine.OID with typeNum: 56
+INFO  [2015-07-16 12:29:22,652] main                 Added marshaller for class :class atavism.msgsys.PluginAvailableMessage with typeNum: 51
+INFO  [2015-07-16 12:29:22,652] main                 Added marshaller for class :class atavism.server.engine.Behavior$CommandMessage with typeNum: 63
+INFO  [2015-07-16 12:29:22,653] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$RegisterTemplateMessage with typeNum: 166
+INFO  [2015-07-16 12:29:22,653] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$UnloadSubObjectMessage with typeNum: 174
+INFO  [2015-07-16 12:29:22,654] main                 Added marshaller for class :class atavism.agis.plugins.DataLoggerClient$CharacterCreatedMessage with typeNum: 332
+INFO  [2015-07-16 12:29:22,655] main                 Added marshaller for class :class atavism.server.pathing.PathObject with typeNum: 86
+INFO  [2015-07-16 12:29:22,655] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$removeSpecificItemMessage with typeNum: 263
+INFO  [2015-07-16 12:29:22,656] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$HostInstanceMessage with typeNum: 227
+INFO  [2015-07-16 12:29:22,656] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$WorldNodeCorrectMessage with typeNum: 224
+INFO  [2015-07-16 12:29:22,657] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$TransferObjectMessage with typeNum: 68
+INFO  [2015-07-16 12:29:22,658] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$LoadSubObjectMessage with typeNum: 165
+INFO  [2015-07-16 12:29:22,658] main                 Added marshaller for class :class atavism.msgsys.UnsubscribeMessage with typeNum: 41
+INFO  [2015-07-16 12:29:22,659] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$SpawnMobMessage with typeNum: 314
+INFO  [2015-07-16 12:29:22,660] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$NewDirLightMessage with typeNum: 199
+INFO  [2015-07-16 12:29:22,660] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillResetMessage with typeNum: 286
+INFO  [2015-07-16 12:29:22,660] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$updateBreathStatusMessage with typeNum: 252
+INFO  [2015-07-16 12:29:22,661] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SubObjectDepsReadyMessage with typeNum: 170
+INFO  [2015-07-16 12:29:22,661] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelDisconnectMessage with typeNum: 306
+INFO  [2015-07-16 12:29:22,662] main                 Added marshaller for class :class atavism.server.messages.LogoutMessage with typeNum: 105
+INFO  [2015-07-16 12:29:22,662] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$InstanceInfo with typeNum: 152
+INFO  [2015-07-16 12:29:22,663] main                 Added marshaller for class :class atavism.server.objects.BinaryState with typeNum: 111
+INFO  [2015-07-16 12:29:22,663] main                 Added marshaller for class :class atavism.msgsys.AgentHelloMessage with typeNum: 28
+INFO  [2015-07-16 12:29:22,664] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$GetPlayerSkillLevelMessage with typeNum: 289
+INFO  [2015-07-16 12:29:22,664] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$OrientMessage with typeNum: 206
+INFO  [2015-07-16 12:29:22,665] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$InvUpdateMessage with typeNum: 156
+INFO  [2015-07-16 12:29:22,665] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$TransferFilter with typeNum: 69
+INFO  [2015-07-16 12:29:22,666] main                 Added marshaller for class :class atavism.server.objects.DisplayState with typeNum: 117
+INFO  [2015-07-16 12:29:22,667] main                 Added marshaller for class :class atavism.server.objects.RegionConfig with typeNum: 133
+INFO  [2015-07-16 12:29:22,667] main                 Added marshaller for class :class atavism.msgsys.AgentStateMessage with typeNum: 29
+INFO  [2015-07-16 12:29:22,669] main                 Added marshaller for class :class atavism.agis.plugins.FactionClient$getAttitudeMessage with typeNum: 330
+INFO  [2015-07-16 12:29:22,670] main                 Added marshaller for class :class atavism.server.objects.Fog with typeNum: 121
+INFO  [2015-07-16 12:29:22,670] main                 Added marshaller for class :class atavism.server.engine.BasicWorldNode with typeNum: 62
+INFO  [2015-07-16 12:29:22,671] main                 Added marshaller for class :class atavism.agis.plugins.GroupClient$getPlayerByNameMessage with typeNum: 310
+INFO  [2015-07-16 12:29:22,671] main                 Added marshaller for class :class atavism.server.engine.PropertySearch with typeNum: 74
+INFO  [2015-07-16 12:29:22,676] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$ItemInfo with typeNum: 158
+INFO  [2015-07-16 12:29:22,687] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$RequestQuestProgressMessage with typeNum: 258
+INFO  [2015-07-16 12:29:22,688] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$interruptAbilityMessage with typeNum: 245
+INFO  [2015-07-16 12:29:22,689] main                 Added marshaller for class :class atavism.server.objects.FogRegionConfig with typeNum: 122
+INFO  [2015-07-16 12:29:22,689] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ObjInfoReqMessage with typeNum: 203
+INFO  [2015-07-16 12:29:22,690] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillAlterCurrentMessage with typeNum: 287
+INFO  [2015-07-16 12:29:22,690] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$MobPathCorrectionMessage with typeNum: 194
+INFO  [2015-07-16 12:29:22,693] main                 Added marshaller for class :class atavism.agis.objects.AgisStat with typeNum: 336
+INFO  [2015-07-16 12:29:22,694] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$RefreshWNodeMessage with typeNum: 209
+INFO  [2015-07-16 12:29:22,694] main                 Added marshaller for class :class atavism.server.objects.Template with typeNum: 140
+INFO  [2015-07-16 12:29:22,695] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$getSpecificItemDataMessage with typeNum: 265
+INFO  [2015-07-16 12:29:22,695] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$MobPathMessageBaseClass with typeNum: 196
+INFO  [2015-07-16 12:29:22,695] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$UpdateMessage with typeNum: 221
+INFO  [2015-07-16 12:29:22,696] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$SetPropertyMessage with typeNum: 67
+INFO  [2015-07-16 12:29:22,697] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$endArenaMessage with typeNum: 298
+INFO  [2015-07-16 12:29:22,697] main                 Added marshaller for class :class atavism.msgsys.FilterUpdateMessage with typeNum: 33
+INFO  [2015-07-16 12:29:22,698] main                 Added marshaller for class :class atavism.server.messages.LoginMessage with typeNum: 99
+INFO  [2015-07-16 12:29:22,699] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelDefeatMessage with typeNum: 305
+INFO  [2015-07-16 12:29:22,699] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$despawnGatesMessage with typeNum: 297
+INFO  [2015-07-16 12:29:22,700] main                 Added marshaller for class :class atavism.server.messages.SearchMessageFilter with typeNum: 107
+INFO  [2015-07-16 12:29:22,701] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DespawnReqMessage with typeNum: 184
+INFO  [2015-07-16 12:29:22,701] main                 Added marshaller for class :class atavism.server.objects.SearchEntry with typeNum: 145
+INFO  [2015-07-16 12:29:22,702] main                 Added marshaller for class :class atavism.server.engine.FixedPerceiver with typeNum: 70
+INFO  [2015-07-16 12:29:22,702] main                 Added marshaller for class :class atavism.server.objects.Region with typeNum: 131
+INFO  [2015-07-16 12:29:22,703] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeDeclineMessage with typeNum: 301
+INFO  [2015-07-16 12:29:22,703] main                 Added marshaller for class :class atavism.server.engine.SearchSelection with typeNum: 75
+INFO  [2015-07-16 12:29:22,704] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$GetInstanceInfoMessage with typeNum: 151
+INFO  [2015-07-16 12:29:22,704] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$LoadObjectMessage with typeNum: 164
+INFO  [2015-07-16 12:29:22,705] main                 Added marshaller for class :class atavism.msgsys.SubjectFilter with typeNum: 45
+INFO  [2015-07-16 12:29:22,705] main                 Added marshaller for class :class atavism.msgsys.Filter with typeNum: 30
+INFO  [2015-07-16 12:29:22,705] main                 Added marshaller for class :class atavism.server.engine.Behavior$EventMessage with typeNum: 64
+INFO  [2015-07-16 12:29:22,707] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$FreeObjectMessage with typeNum: 200
+INFO  [2015-07-16 12:29:22,707] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$PluginStateMessage with typeNum: 66
+INFO  [2015-07-16 12:29:22,708] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$getLootListMessage with typeNum: 274
+INFO  [2015-07-16 12:29:22,708] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DespawnedMessage with typeNum: 185
+INFO  [2015-07-16 12:29:22,709] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$MobPathReqMessage with typeNum: 197
+INFO  [2015-07-16 12:29:22,709] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$removePlayerMessage with typeNum: 292
+INFO  [2015-07-16 12:29:22,710] main                 Added marshaller for class :class atavism.server.engine.TerrainConfig with typeNum: 73
+INFO  [2015-07-16 12:29:22,710] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$moveBagMessage with typeNum: 269
+INFO  [2015-07-16 12:29:22,710] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$stopAutoAttackMessage with typeNum: 243
+INFO  [2015-07-16 12:29:22,711] main                 Added marshaller for class :class atavism.server.pathing.PathArc with typeNum: 82
+INFO  [2015-07-16 12:29:22,711] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SaveObjectDataMessage with typeNum: 167
+INFO  [2015-07-16 12:29:22,712] main                 Added marshaller for class :class atavism.server.messages.PerceptionMessage$ObjectNote with typeNum: 95
+INFO  [2015-07-16 12:29:22,712] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$petCommandUpdateMessage with typeNum: 318
+INFO  [2015-07-16 12:29:22,713] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$petTargetLostMessage with typeNum: 321
+INFO  [2015-07-16 12:29:22,713] main                 Added marshaller for class :class atavism.server.plugins.MobManagerClient$SetAggroRadiusMessage with typeNum: 238
+INFO  [2015-07-16 12:29:22,715] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$CompleteQuestMessage with typeNum: 259
+INFO  [2015-07-16 12:29:22,715] main                 Added marshaller for class :class atavism.server.pathing.PathPortal with typeNum: 89
+INFO  [2015-07-16 12:29:22,716] main                 Added marshaller for class :class atavism.server.objects.OceanData with typeNum: 128
+INFO  [2015-07-16 12:29:22,716] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$arenaKillMessage with typeNum: 293
+INFO  [2015-07-16 12:29:22,717] main                 Added marshaller for class :class atavism.server.math.AOVector with typeNum: 77
+INFO  [2015-07-16 12:29:22,717] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$ArrivedEventMessage with typeNum: 57
+INFO  [2015-07-16 12:29:22,718] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$sendPurchaseMailMessage with typeNum: 279
+INFO  [2015-07-16 12:29:22,718] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SpawnedMessage with typeNum: 217
+INFO  [2015-07-16 12:29:22,718] main                 Added marshaller for class :class atavism.server.objects.DirectionalLight with typeNum: 114
+INFO  [2015-07-16 12:29:22,719] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$LearnAbilityMessage with typeNum: 290
+INFO  [2015-07-16 12:29:22,720] main                 Added marshaller for class :class atavism.server.pathing.PathPolygon with typeNum: 88
+INFO  [2015-07-16 12:29:22,720] main                 Added marshaller for class :class atavism.server.messages.PropertyFilter with typeNum: 109
+INFO  [2015-07-16 12:29:22,721] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$DialogueOptionChosenMessage with typeNum: 329
+INFO  [2015-07-16 12:29:22,721] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$WorldManagerTransferFilter with typeNum: 230
+INFO  [2015-07-16 12:29:22,721] main                 Added marshaller for class :class atavism.server.messages.PerceptionFilter with typeNum: 93
+INFO  [2015-07-16 12:29:22,722] main                 Added marshaller for class :class atavism.msgsys.MessageTypeSessionIdFilter with typeNum: 44
+INFO  [2015-07-16 12:29:22,722] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$AbandonQuestMessage with typeNum: 261
+INFO  [2015-07-16 12:29:22,723] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$CreateInstanceMessage with typeNum: 149
+INFO  [2015-07-16 12:29:22,723] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$GetQuestItemReqsMessage with typeNum: 255
+INFO  [2015-07-16 12:29:22,724] main                 Added marshaller for class :class atavism.agis.objects.AgisAttachSocket with typeNum: 234
+INFO  [2015-07-16 12:29:22,724] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$CheckComponentMessage with typeNum: 282
+INFO  [2015-07-16 12:29:22,725] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$GetNpcInteractionsMessage with typeNum: 327
+INFO  [2015-07-16 12:29:22,725] main                 Added marshaller for class :class atavism.server.plugins.MobManagerClient$CreateSpawnGeneratorMessage with typeNum: 237
+INFO  [2015-07-16 12:29:22,726] main                 Added marshaller for class :class atavism.server.objects.DisplayContext$Submesh with typeNum: 116
+INFO  [2015-07-16 12:29:22,726] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$AddItemMessage with typeNum: 155
+INFO  [2015-07-16 12:29:22,771] main                 Added marshaller for class :class atavism.server.objects.TerrainDecalData with typeNum: 141
+INFO  [2015-07-16 12:29:22,772] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ObjectInfo with typeNum: 205
+INFO  [2015-07-16 12:29:22,772] main                 Added marshaller for class :class atavism.server.messages.PerceptionTrigger with typeNum: 96
+INFO  [2015-07-16 12:29:22,773] main                 Added marshaller for class :class atavism.msgsys.AdvertiseMessage with typeNum: 27
+INFO  [2015-07-16 12:29:22,773] main                 Added marshaller for class :class atavism.server.objects.ObjectType with typeNum: 119
+INFO  [2015-07-16 12:29:22,773] main                 Added marshaller for class :class atavism.server.objects.Entity with typeNum: 118
+INFO  [2015-07-16 12:29:22,781] main                 Added marshaller for class :class atavism.msgsys.NewAgentMessage with typeNum: 37
+INFO  [2015-07-16 12:29:22,782] main                 Added marshaller for class :class atavism.server.math.Geometry with typeNum: 76
+INFO  [2015-07-16 12:29:22,783] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$alterExpMessage with typeNum: 251
+INFO  [2015-07-16 12:29:22,783] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$UpdateWorldNodeReqMessage with typeNum: 223
+INFO  [2015-07-16 12:29:22,784] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$dotScoreMessage with typeNum: 294
+INFO  [2015-07-16 12:29:22,785] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$NewRemoteObjectMessage with typeNum: 202
+INFO  [2015-07-16 12:29:22,785] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$startArenaCheckMessage with typeNum: 295
+INFO  [2015-07-16 12:29:22,785] main                 Added marshaller for class :class atavism.server.pathing.PathObjectType with typeNum: 87
+INFO  [2015-07-16 12:29:22,785] main                 Added marshaller for class :class atavism.server.objects.PermissionCallback with typeNum: 129
+INFO  [2015-07-16 12:29:22,791] main                 Added marshaller for class :class atavism.agis.plugins.DataLoggerClient$LogEventMessage with typeNum: 334
+INFO  [2015-07-16 12:29:22,792] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DetachMessage with typeNum: 186
+INFO  [2015-07-16 12:29:22,792] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$RemoveOrFindItemMessage with typeNum: 160
+INFO  [2015-07-16 12:29:22,792] main                 Added marshaller for class :class atavism.msgsys.MessageTrigger with typeNum: 35
+INFO  [2015-07-16 12:29:22,793] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DisplayContextMessage with typeNum: 188
+INFO  [2015-07-16 12:29:22,793] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$RoadInfo with typeNum: 211
+INFO  [2015-07-16 12:29:22,794] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$TaskUpdateMessage with typeNum: 257
+INFO  [2015-07-16 12:29:22,794] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SetWorldNodeReqMessage with typeNum: 214
+INFO  [2015-07-16 12:29:22,794] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$LoadObjectDataMessage with typeNum: 163
+INFO  [2015-07-16 12:29:22,795] main                 Added marshaller for class :class atavism.msgsys.MessageTypeFilter with typeNum: 36
+INFO  [2015-07-16 12:29:22,795] main                 Added marshaller for class :class atavism.server.messages.OIDNamespaceMessage with typeNum: 91
+INFO  [2015-07-16 12:29:22,795] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$PlayerPathWMReqMessage with typeNum: 228
+INFO  [2015-07-16 12:29:22,796] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$removeTargetToCheckMessage with typeNum: 324
+INFO  [2015-07-16 12:29:22,796] main                 Added marshaller for class :class atavism.server.pathing.PathData with typeNum: 83
+INFO  [2015-07-16 12:29:22,797] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SpawnReqMessage with typeNum: 216
+INFO  [2015-07-16 12:29:22,797] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$applyEffectMessage with typeNum: 250
+INFO  [2015-07-16 12:29:22,798] main                 Added marshaller for class :class atavism.msgsys.IntegerResponseMessage with typeNum: 47
+INFO  [2015-07-16 12:29:22,798] main                 Added marshaller for class :class atavism.server.objects.SoundRegionConfig with typeNum: 138
+INFO  [2015-07-16 12:29:22,799] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$TargetedComMessage with typeNum: 182
+INFO  [2015-07-16 12:29:22,800] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$PerceptionInfo with typeNum: 225
+INFO  [2015-07-16 12:29:22,800] main                 Added marshaller for class :class atavism.msgsys.GenericResponseMessage with typeNum: 43
+INFO  [2015-07-16 12:29:22,800] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$updatePetStatsMessage with typeNum: 320
+INFO  [2015-07-16 12:29:22,801] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$OrientReqMessage with typeNum: 207
+INFO  [2015-07-16 12:29:22,801] main                 Added marshaller for class :class atavism.server.engine.Namespace with typeNum: 71
+INFO  [2015-07-16 12:29:22,802] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$NewRegionMessage with typeNum: 201
+INFO  [2015-07-16 12:29:22,802] main                 Added marshaller for class :class atavism.server.objects.LightData with typeNum: 124
+INFO  [2015-07-16 12:29:22,803] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$GetNamedObjectMessage with typeNum: 178
+INFO  [2015-07-16 12:29:22,803] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$abilityUsedMessage with typeNum: 242
+INFO  [2015-07-16 12:29:22,803] main                 Added marshaller for class :class atavism.msgsys.SubjectMessage with typeNum: 38
+INFO  [2015-07-16 12:29:22,804] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$LocationNamespaceFilter with typeNum: 229
+INFO  [2015-07-16 12:29:22,804] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillIncreasedMessage with typeNum: 284
+INFO  [2015-07-16 12:29:22,809] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$InvUpdateMessage$InvPos with typeNum: 157
+INFO  [2015-07-16 12:29:22,810] main                 Added marshaller for class :class atavism.server.objects.SpawnData with typeNum: 139
+INFO  [2015-07-16 12:29:22,811] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$SendInventoryUpdateMessage with typeNum: 278
+INFO  [2015-07-16 12:29:22,812] main                 Added marshaller for class :class atavism.msgsys.ExceptionResponseMessage with typeNum: 52
+INFO  [2015-07-16 12:29:22,813] main                 Added marshaller for class :class atavism.server.objects.RoadRegionConfig with typeNum: 135
+INFO  [2015-07-16 12:29:22,813] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeMessage with typeNum: 299
+INFO  [2015-07-16 12:29:22,814] main                 Added marshaller for class :class atavism.msgsys.LongResponseMessage with typeNum: 48
+INFO  [2015-07-16 12:29:22,814] main                 Added marshaller for class :class atavism.server.objects.Light with typeNum: 123
+INFO  [2015-07-16 12:29:22,844] main                 Added marshaller for class :class atavism.agis.plugins.CraftingClient$CraftItemMessage with typeNum: 335
+INFO  [2015-07-16 12:29:22,845] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$updateActionBarMessage with typeNum: 249
+INFO  [2015-07-16 12:29:22,845] main                 Added marshaller for class :class atavism.server.messages.PropertyMessage with typeNum: 92
+INFO  [2015-07-16 12:29:22,845] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$addTargetToCheckMessage with typeNum: 323
+INFO  [2015-07-16 12:29:22,846] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$GetRegionMessage with typeNum: 153
+INFO  [2015-07-16 12:29:22,846] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$updateFatigueStatusMessage with typeNum: 253
+INFO  [2015-07-16 12:29:22,847] main                 Added marshaller for class :class atavism.msgsys.BooleanResponseMessage with typeNum: 49
+INFO  [2015-07-16 12:29:22,848] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$removeEffectsMessage with typeNum: 308
+INFO  [2015-07-16 12:29:22,848] main                 Added marshaller for class :class atavism.server.objects.ObjectTracker$TrackerFilter with typeNum: 146
+INFO  [2015-07-16 12:29:22,848] main                 Added marshaller for class :class atavism.msgsys.ResponseMessage with typeNum: 104
+INFO  [2015-07-16 12:29:22,849] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$AnimationMessage with typeNum: 180
+INFO  [2015-07-16 12:29:22,849] main                 Added marshaller for class :class atavism.msgsys.ExceptionData with typeNum: 53
+INFO  [2015-07-16 12:29:22,851] main                 Added marshaller for class :class atavism.server.objects.EntityHandle with typeNum: 120
+INFO  [2015-07-16 12:29:22,857] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$DisableCommandMessage with typeNum: 61
+INFO  [2015-07-16 12:29:22,862] main                 Added marshaller for class :class atavism.msgsys.SubscribeMessage with typeNum: 39
+INFO  [2015-07-16 12:29:22,862] main                 Added marshaller for class :class atavism.msgsys.Message with typeNum: 100
+INFO  [2015-07-16 12:29:22,862] main                 Added marshaller for class :class atavism.server.objects.ObjState with typeNum: 127
+INFO  [2015-07-16 12:29:22,863] main                 Added marshaller for class :class atavism.server.math.Plane with typeNum: 78
+INFO  [2015-07-16 12:29:22,864] main                 Added marshaller for class :class atavism.server.objects.Marker with typeNum: 144
+INFO  [2015-07-16 12:29:22,865] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$WorldManagerFilter$InstanceGeometry with typeNum: 232
+INFO  [2015-07-16 12:29:22,865] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$UpdateWorldNodeMessage with typeNum: 222
+INFO  [2015-07-16 12:29:22,866] main                 Added marshaller for class :class atavism.msgsys.AllocNameResponseMessage with typeNum: 103
+INFO  [2015-07-16 12:29:22,866] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$generateLootMessage with typeNum: 273
+INFO  [2015-07-16 12:29:22,867] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$RegisterInstanceTemplateMessage with typeNum: 148
+INFO  [2015-07-16 12:29:22,867] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ExtensionMessage with typeNum: 190
+INFO  [2015-07-16 12:29:22,868] main                 Added marshaller for class :class atavism.server.objects.Color with typeNum: 113
+INFO  [2015-07-16 12:29:22,868] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$FollowCommandMessage with typeNum: 58
+INFO  [2015-07-16 12:29:22,869] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$spawnArenaCreatureMessage with typeNum: 315
+INFO  [2015-07-16 12:29:22,870] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$getAoeTargetsMessage with typeNum: 248
+INFO  [2015-07-16 12:29:22,870] main                 Added marshaller for class :class atavism.server.objects.Vector2 with typeNum: 142
+INFO  [2015-07-16 12:29:22,871] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$levelChangeMessage with typeNum: 283
+INFO  [2015-07-16 12:29:22,872] main                 Added marshaller for class :class atavism.server.util.AnimationCommand with typeNum: 81
+INFO  [2015-07-16 12:29:22,872] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeRemoveMessage with typeNum: 303
+INFO  [2015-07-16 12:29:22,873] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$lootAllMessage with typeNum: 272
+INFO  [2015-07-16 12:29:22,873] main                 Added marshaller for class :class atavism.server.objects.InstanceTemplate with typeNum: 147
+INFO  [2015-07-16 12:29:22,874] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$checkCurrencyMessage with typeNum: 280
+INFO  [2015-07-16 12:29:22,875] main                 Added marshaller for class :class atavism.server.objects.AOObject with typeNum: 125
+INFO  [2015-07-16 12:29:22,875] main                 Added marshaller for class :class atavism.agis.plugins.GroupClient$groupInviteByNameMessage with typeNum: 309
+INFO  [2015-07-16 12:29:22,876] main                 Added marshaller for class :class atavism.server.pathing.PathEdge with typeNum: 84
+INFO  [2015-07-16 12:29:22,877] main                 Added marshaller for class :class atavism.server.plugins.ProxyPlugin$PlayerLoginStatus with typeNum: 239
+INFO  [2015-07-16 12:29:22,877] main                 Added marshaller for class :class atavism.server.objects.SoundData with typeNum: 137
+INFO  [2015-07-16 12:29:22,878] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$LoadSubObjectMessage with typeNum: 226
+INFO  [2015-07-16 12:29:22,878] main                 Added marshaller for class :class atavism.msgsys.GenericMessage with typeNum: 42
+INFO  [2015-07-16 12:29:22,878] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$QuestItemsListMessage with typeNum: 277
+INFO  [2015-07-16 12:29:22,879] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$StartQuestMessage with typeNum: 254
+INFO  [2015-07-16 12:29:22,879] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$GetPropertyMessage with typeNum: 65
+INFO  [2015-07-16 12:29:22,880] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SetSubPersistenceMessage with typeNum: 171
+INFO  [2015-07-16 12:29:22,880] main                 Added marshaller for class :class atavism.server.messages.PerceptionMessage with typeNum: 94
+INFO  [2015-07-16 12:29:22,881] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$targetInReactionRangeMessage with typeNum: 322
+INFO  [2015-07-16 12:29:22,881] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ComMessage with typeNum: 181
+INFO  [2015-07-16 12:29:22,882] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$PerceiverRegionsMessage with typeNum: 208
+INFO  [2015-07-16 12:29:22,882] main                 Added marshaller for class :class atavism.server.messages.NamespaceFilter with typeNum: 97
+INFO  [2015-07-16 12:29:22,883] main                 Added marshaller for class :class atavism.server.objects.Bag with typeNum: 110
+INFO  [2015-07-16 12:29:22,883] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$tameBeastMessage with typeNum: 317
+INFO  [2015-07-16 12:29:22,884] main                 Added marshaller for class :class atavism.msgsys.HelloResponseMessage with typeNum: 34
+INFO  [2015-07-16 12:29:22,884] main                 Added marshaller for class :class atavism.server.messages.NamespaceMessage with typeNum: 90
+INFO  [2015-07-16 12:29:22,884] main                 Added marshaller for class :class atavism.server.objects.InstanceRestorePoint with typeNum: 143
+INFO  [2015-07-16 12:29:22,885] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$GetInstanceTemplateMessage with typeNum: 312
+INFO  [2015-07-16 12:29:22,885] main                 Added marshaller for class :class atavism.server.objects.ObjectTracker$NotifyAggroRadiusMessage with typeNum: 236
+INFO  [2015-07-16 12:29:22,886] main                 Added marshaller for class :class atavism.server.objects.ObjectTracker$NotifyReactionRadiusMessage with typeNum: 235
+INFO  [2015-07-16 12:29:22,886] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$removeBagMessage with typeNum: 270
+INFO  [2015-07-16 12:29:22,887] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$getIslandsDataMessage with typeNum: 325
+INFO  [2015-07-16 12:29:22,887] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$TargetTypeMessage with typeNum: 244
+INFO  [2015-07-16 12:29:22,888] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$addArenaCreatureMessage with typeNum: 296
+INFO  [2015-07-16 12:29:22,888] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$RequestOpenMobMessage with typeNum: 262
+INFO  [2015-07-16 12:29:22,889] main                 Added marshaller for class :class atavism.server.objects.Road with typeNum: 134
+INFO  [2015-07-16 12:29:22,889] main                 Added marshaller for class :class atavism.agis.plugins.DataLoggerClient$CharacterDeletedMessage with typeNum: 333
+INFO  [2015-07-16 12:29:22,890] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$lootItemMessage with typeNum: 271
+INFO  [2015-07-16 12:29:22,890] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$TargetedExtensionMessage with typeNum: 219
+INFO  [2015-07-16 12:29:22,890] main                 Entered MarshallingRuntime.initializeBatch: Registered 310 classes
+INFO  [2015-07-16 12:29:22,890] main                 Engine: My local host name is 'Kenzans-MacBook-Pro.local'
+DEBUG [2015-07-16 12:29:22,891] main                 Engine: atavism.cputime_logging_interval disabled
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: option i: ../bin/mobserver_local.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: option i: ../config/common/aomessages.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: option i: ../config/world/worldmessages.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/common/global_props.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/world/global_props.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/common/mobserver_init.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/world/mobserver_init.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/common/questplugin.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/world/factionplugin.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/world/socialplugin.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/common/mobserver.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/world/mobserver.py
+DEBUG [2015-07-16 12:29:22,895] main                 Engine: populateScriptList: nonoption args element: ../config/world/extensions_mobserver.py
+DEBUG [2015-07-16 12:29:25,829] main                 Engine: Engine: reading in script: ../bin/mobserver_local.py
+DEBUG [2015-07-16 12:29:25,829] main                 Engine: Executing init script file: ../bin/mobserver_local.py
+DEBUG [2015-07-16 12:29:25,829] main                 runPYFile: file=../bin/mobserver_local.py
+DEBUG [2015-07-16 12:29:25,943] main                 BasicInterpolator.startUpdates: updating with interval=5000
+DEBUG [2015-07-16 12:29:26,008] main                 mobserver_local: done with local config
+DEBUG [2015-07-16 12:29:26,008] main                 Engine: script completed
+DEBUG [2015-07-16 12:29:26,008] main                 Engine: Engine: reading in script: ../config/common/aomessages.py
+DEBUG [2015-07-16 12:29:26,009] main                 Engine: Executing init script file: ../config/common/aomessages.py
+DEBUG [2015-07-16 12:29:26,009] main                 runPYFile: file=../config/common/aomessages.py
+DEBUG [2015-07-16 12:29:26,298] main                 Adding msg type 'ao.PROPERTY', msgNumber 1/0x1
+DEBUG [2015-07-16 12:29:26,299] main                 Adding msg type 'ao.LOGIN', msgNumber 2/0x2
+DEBUG [2015-07-16 12:29:26,299] main                 Adding msg type 'ao.LOGOUT', msgNumber 3/0x3
+DEBUG [2015-07-16 12:29:26,318] main                 Adding msg type 'ao.ANIMATION', msgNumber 4/0x4
+DEBUG [2015-07-16 12:29:26,319] main                 Adding msg type 'ao.COM', msgNumber 5/0x5
+DEBUG [2015-07-16 12:29:26,326] main                 Adding msg type 'ao.COM_REQ', msgNumber 6/0x6
+DEBUG [2015-07-16 12:29:26,327] main                 Adding msg type 'ao.DC_REQ', msgNumber 7/0x7
+DEBUG [2015-07-16 12:29:26,327] main                 Adding msg type 'ao.DESPAWNED', msgNumber 8/0x8
+DEBUG [2015-07-16 12:29:26,327] main                 Adding msg type 'ao.DESPAWN_REQ', msgNumber 9/0x9
+DEBUG [2015-07-16 12:29:26,327] main                 Adding msg type 'ao.DETACH', msgNumber 10/0xa
+DEBUG [2015-07-16 12:29:26,327] main                 Adding msg type 'ao.DIR_LOC_ORIENT', msgNumber 11/0xb
+DEBUG [2015-07-16 12:29:26,328] main                 Adding msg type 'ao.DISPLAY_CONTEXT', msgNumber 12/0xc
+DEBUG [2015-07-16 12:29:26,328] main                 Adding msg type 'ao.EXTENSION', msgNumber 13/0xd
+DEBUG [2015-07-16 12:29:26,328] main                 Adding msg type 'ao.FOG', msgNumber 14/0xe
+DEBUG [2015-07-16 12:29:26,328] main                 Adding msg type 'ao.FREE_REMOTE_OBJ', msgNumber 15/0xf
+DEBUG [2015-07-16 12:29:26,329] main                 Adding msg type 'ao.GETWNODE_REQ', msgNumber 16/0x10
+DEBUG [2015-07-16 12:29:26,329] main                 Adding msg type 'ao.MOB_PATH', msgNumber 17/0x11
+DEBUG [2015-07-16 12:29:26,329] main                 Adding msg type 'ao.MOB_PATH_CORRECTION', msgNumber 18/0x12
+DEBUG [2015-07-16 12:29:26,329] main                 Adding msg type 'ao.MOB_PATH_REQ', msgNumber 19/0x13
+DEBUG [2015-07-16 12:29:26,329] main                 Adding msg type 'ao.MODIFY_DC', msgNumber 20/0x14
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.NEW_DIRLIGHT', msgNumber 21/0x15
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.FREE_OBJECT', msgNumber 22/0x16
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.NEW_REGION', msgNumber 23/0x17
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.NEW_REMOTE_OBJ', msgNumber 24/0x18
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.OBJINFO_REQ', msgNumber 25/0x19
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.GET_OBJECTS_IN', msgNumber 26/0x1a
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.ORIENT', msgNumber 27/0x1b
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.ORIENT_REQ', msgNumber 28/0x1c
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.PERCEIVER_REGIONS', msgNumber 29/0x1d
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.REFRESH_WNODE', msgNumber 30/0x1e
+DEBUG [2015-07-16 12:29:26,330] main                 Adding msg type 'ao.REPARENT_WNODE_REQ', msgNumber 31/0x1f
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.ROAD', msgNumber 32/0x20
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.FREE_ROAD', msgNumber 33/0x21
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.SETWNODE_REQ', msgNumber 34/0x22
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.SET_AMBIENT', msgNumber 35/0x23
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.SOUND', msgNumber 36/0x24
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.SPAWNED', msgNumber 37/0x25
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.SPAWN_REQ', msgNumber 38/0x26
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.SYS_CHAT', msgNumber 39/0x27
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.TARGETED_PROPERTY', msgNumber 40/0x28
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.UPDATEWNODE', msgNumber 41/0x29
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.UPDATEWNODE_REQ', msgNumber 42/0x2a
+DEBUG [2015-07-16 12:29:26,331] main                 Adding msg type 'ao.UPDATE_OBJECT', msgNumber 43/0x2b
+DEBUG [2015-07-16 12:29:26,332] main                 Adding msg type 'ao.WNODECORRECT', msgNumber 44/0x2c
+DEBUG [2015-07-16 12:29:26,332] main                 Adding msg type 'ao.P2P_EXTENSION', msgNumber 45/0x2d
+DEBUG [2015-07-16 12:29:26,332] main                 Adding msg type 'ao.PERCEPTION_INFO', msgNumber 46/0x2e
+DEBUG [2015-07-16 12:29:26,332] main                 Adding msg type 'ao.PERCEPTION', msgNumber 47/0x2f
+DEBUG [2015-07-16 12:29:26,332] main                 Adding msg type 'ao.HOST_INSTANCE', msgNumber 48/0x30
+DEBUG [2015-07-16 12:29:26,332] main                 Adding msg type 'ao.PLAYER_PATH_WM_REQ', msgNumber 49/0x31
+DEBUG [2015-07-16 12:29:26,334] main                 Adding msg type 'ao.SET_PERSISTENCE', msgNumber 50/0x32
+DEBUG [2015-07-16 12:29:26,334] main                 Adding msg type 'ao.SET_SUBPERSISTENCE', msgNumber 51/0x33
+DEBUG [2015-07-16 12:29:26,334] main                 Adding msg type 'ao.MODIFY_NAMESPACE', msgNumber 52/0x34
+DEBUG [2015-07-16 12:29:26,334] main                 Adding msg type 'ao.LOAD_OBJECT', msgNumber 53/0x35
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.LOAD_SUBOBJECT', msgNumber 54/0x36
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.LOAD_OBJECT_DATA', msgNumber 55/0x37
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.SAVE_OBJECT_DATA', msgNumber 56/0x38
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.SAVE_OBJECT', msgNumber 57/0x39
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.SAVE_SUBOBJECT', msgNumber 58/0x3a
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.GENERATE_OBJECT', msgNumber 59/0x3b
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.GENERATE_SUB_OBJECT', msgNumber 60/0x3c
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.SUB_OBJECT_DEPS_READY', msgNumber 61/0x3d
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.REGISTER_TEMPLATE', msgNumber 62/0x3e
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.GET_TEMPLATE', msgNumber 63/0x3f
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.GET_TEMPLATE_NAMES', msgNumber 64/0x40
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.UNLOAD_OBJECT', msgNumber 65/0x41
+DEBUG [2015-07-16 12:29:26,335] main                 Adding msg type 'ao.UNLOAD_SUBOBJECT', msgNumber 66/0x42
+DEBUG [2015-07-16 12:29:26,336] main                 Adding msg type 'ao.DELETE_OBJECT', msgNumber 67/0x43
+DEBUG [2015-07-16 12:29:26,336] main                 Adding msg type 'ao.DELETE_SUBOBJECT', msgNumber 68/0x44
+DEBUG [2015-07-16 12:29:26,336] main                 Adding msg type 'ao.FIX_WNODE_REQ', msgNumber 69/0x45
+DEBUG [2015-07-16 12:29:26,336] main                 Adding msg type 'ao.GET_NAMED_OBJECT', msgNumber 70/0x46
+DEBUG [2015-07-16 12:29:26,336] main                 Adding msg type 'ao.GET_MATCHING_OBJECTS', msgNumber 71/0x47
+DEBUG [2015-07-16 12:29:26,336] main                 Adding msg type 'ao.GET_OBJECT_STATUS', msgNumber 72/0x48
+DEBUG [2015-07-16 12:29:26,352] main                 Adding msg type 'ao.ADD_ITEM', msgNumber 73/0x49
+DEBUG [2015-07-16 12:29:26,352] main                 Adding msg type 'ao.CREATE_INV', msgNumber 74/0x4a
+DEBUG [2015-07-16 12:29:26,352] main                 Adding msg type 'ao.INV_UPDATE', msgNumber 75/0x4b
+DEBUG [2015-07-16 12:29:26,352] main                 Adding msg type 'ao.ACTIVATE', msgNumber 76/0x4c
+DEBUG [2015-07-16 12:29:26,352] main                 Adding msg type 'ao.LOOTALL', msgNumber 77/0x4d
+DEBUG [2015-07-16 12:29:26,353] main                 Adding msg type 'ao.INV_FIND', msgNumber 78/0x4e
+DEBUG [2015-07-16 12:29:26,353] main                 Adding msg type 'ao.INV_REMOVE', msgNumber 79/0x4f
+DEBUG [2015-07-16 12:29:26,353] main                 Adding msg type 'ao.DESTROY_ITEM', msgNumber 80/0x50
+DEBUG [2015-07-16 12:29:26,355] main                 Adding msg type 'ao.NOTIFY_REACTION_RADIUS', msgNumber 81/0x51
+DEBUG [2015-07-16 12:29:26,355] main                 Adding msg type 'ao.NOTIFY_AGGRO_RADIUS', msgNumber 82/0x52
+DEBUG [2015-07-16 12:29:26,360] main                 Adding msg type 'ao.DUMP_ALL_THREAD_STACKS', msgNumber 83/0x53
+DEBUG [2015-07-16 12:29:26,360] main                 Adding msg type 'ao.GET_PROPERTY', msgNumber 84/0x54
+DEBUG [2015-07-16 12:29:26,360] main                 Adding msg type 'ao.GET_PROPERTY_NAMES', msgNumber 85/0x55
+DEBUG [2015-07-16 12:29:26,360] main                 Adding msg type 'ao.PLUGIN_STATE', msgNumber 86/0x56
+DEBUG [2015-07-16 12:29:26,360] main                 Adding msg type 'ao.SET_PROPERTY', msgNumber 87/0x57
+DEBUG [2015-07-16 12:29:26,360] main                 Adding msg type 'ao.SET_PROPERTY_NONBLOCK', msgNumber 88/0x58
+DEBUG [2015-07-16 12:29:26,360] main                 Adding msg type 'ao.TRANSFER_OBJECT', msgNumber 89/0x59
+DEBUG [2015-07-16 12:29:26,376] main                 Adding msg type 'ao.COMMAND', msgNumber 90/0x5a
+DEBUG [2015-07-16 12:29:26,376] main                 Adding msg type 'ao.EVENT', msgNumber 91/0x5b
+DEBUG [2015-07-16 12:29:26,382] main                 Adding msg type 'ao.REQ_QUEST_INFO', msgNumber 92/0x5c
+DEBUG [2015-07-16 12:29:26,382] main                 Adding msg type 'ao.REQ_CONCLUDE_QUEST', msgNumber 93/0x5d
+DEBUG [2015-07-16 12:29:26,383] main                 Adding msg type 'ao.QUEST_INFO', msgNumber 94/0x5e
+DEBUG [2015-07-16 12:29:26,383] main                 Adding msg type 'ao.GET_QUEST_STATUS', msgNumber 95/0x5f
+DEBUG [2015-07-16 12:29:26,383] main                 Adding msg type 'ao.QUEST_RESP', msgNumber 96/0x60
+DEBUG [2015-07-16 12:29:26,383] main                 Adding msg type 'ao.NEW_QUESTSTATE', msgNumber 97/0x61
+DEBUG [2015-07-16 12:29:26,383] main                 Adding msg type 'ao.CONCLUDE_QUEST', msgNumber 98/0x62
+DEBUG [2015-07-16 12:29:26,383] main                 Adding msg type 'ao.QUEST_STATE_STATUS_CHANGE', msgNumber 99/0x63
+DEBUG [2015-07-16 12:29:26,383] main                 Adding msg type 'ao.QUEST_LOG_INFO', msgNumber 100/0x64
+DEBUG [2015-07-16 12:29:26,383] main                 Adding msg type 'ao.QUEST_STATE_INFO', msgNumber 101/0x65
+DEBUG [2015-07-16 12:29:26,384] main                 Adding msg type 'ao.REMOVE_QUEST_RESP', msgNumber 102/0x66
+DEBUG [2015-07-16 12:29:26,384] main                 Adding msg type 'ao.REQ_RESET_QUESTS', msgNumber 103/0x67
+DEBUG [2015-07-16 12:29:26,390] main                 Adding msg type 'ao.AGIS_INV_FIND', msgNumber 104/0x68
+DEBUG [2015-07-16 12:29:26,390] main                 Adding msg type 'ao.TRADE_START_REQ', msgNumber 105/0x69
+DEBUG [2015-07-16 12:29:26,390] main                 Adding msg type 'ao.TRADE_START', msgNumber 106/0x6a
+DEBUG [2015-07-16 12:29:26,390] main                 Adding msg type 'ao.TRADE_COMPLETE', msgNumber 107/0x6b
+DEBUG [2015-07-16 12:29:26,390] main                 Adding msg type 'ao.TRADE_OFFER_REQ', msgNumber 108/0x6c
+DEBUG [2015-07-16 12:29:26,390] main                 Adding msg type 'ao.TRADE_OFFER_UPDATE', msgNumber 109/0x6d
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.AUTO_ATTACK', msgNumber 110/0x6e
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.START_ABILITY', msgNumber 111/0x6f
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.COOLDOWN', msgNumber 112/0x70
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.ABILITY_PROGRESS', msgNumber 113/0x71
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.DAMAGE', msgNumber 114/0x72
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.RELEASE_OBJECT', msgNumber 115/0x73
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.ABILITY_STATUS', msgNumber 116/0x74
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.ABILITY_UPDATE', msgNumber 117/0x75
+DEBUG [2015-07-16 12:29:26,392] main                 Adding msg type 'ao.ADD_SKILL', msgNumber 118/0x76
+DEBUG [2015-07-16 12:29:26,393] main                 Adding msg type 'ao.TRAINING_FAILED', msgNumber 119/0x77
+DEBUG [2015-07-16 12:29:26,393] main                 Adding msg type 'ao.COMBAT_ABILITY_MISSED', msgNumber 120/0x78
+DEBUG [2015-07-16 12:29:26,393] main                 Adding msg type 'ao.SKILL_UPDATE', msgNumber 121/0x79
+DEBUG [2015-07-16 12:29:26,393] main                 Adding msg type 'ao.GET_ABILITY', msgNumber 122/0x7a
+DEBUG [2015-07-16 12:29:26,393] main                 Adding msg type 'ao.INVOKE_EFFECT', msgNumber 123/0x7b
+DEBUG [2015-07-16 12:29:26,395] main                 Adding msg type 'ao.REGISTER_INSTANCE_TEMPLATE', msgNumber 124/0x7c
+DEBUG [2015-07-16 12:29:26,395] main                 Adding msg type 'ao.CREATE_INSTANCE', msgNumber 125/0x7d
+DEBUG [2015-07-16 12:29:26,395] main                 Adding msg type 'ao.GET_INSTANCE_INFO', msgNumber 126/0x7e
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.INSTANCE_ENTRY_REQ', msgNumber 127/0x7f
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.GET_REGION', msgNumber 128/0x80
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.LOAD_INSTANCE', msgNumber 129/0x81
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.UNLOAD_INSTANCE', msgNumber 130/0x82
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.DELETE_INSTANCE', msgNumber 131/0x83
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.LOAD_INSTANCE_CONTENT', msgNumber 132/0x84
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.INSTANCE_UNLOADED', msgNumber 133/0x85
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.INSTANCE_DELETED', msgNumber 134/0x86
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.GET_ENTITY_OIDS', msgNumber 135/0x87
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.LOAD_INSTANCE_BY_NAME', msgNumber 136/0x88
+DEBUG [2015-07-16 12:29:26,396] main                 Adding msg type 'ao.INSTANCE_LOADED', msgNumber 137/0x89
+DEBUG [2015-07-16 12:29:26,407] main                 Adding msg type 'ao.CREATE_SPAWN_GEN', msgNumber 138/0x8a
+DEBUG [2015-07-16 12:29:26,407] main                 Adding msg type 'ao.SET_AGGRO_RADIUS', msgNumber 139/0x8b
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.VOICE_PARMS', msgNumber 140/0x8c
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.PLAYER_PATH_REQ', msgNumber 141/0x8d
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.UPDATE_PLAYER_IGNORE_LIST', msgNumber 142/0x8e
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.RELAY_UPDATE_PLAYER_IGNORE_LIST', msgNumber 143/0x8f
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.GET_MATCHING_PLAYERS', msgNumber 144/0x90
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.PLAYER_IGNORE_LIST', msgNumber 145/0x91
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.PLAYER_IGNORE_LIST_REQ', msgNumber 146/0x92
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.GET_PLAYER_LOGIN_STATUS', msgNumber 147/0x93
+DEBUG [2015-07-16 12:29:26,448] main                 Adding msg type 'ao.LOGOUT_PLAYER', msgNumber 148/0x94
+DEBUG [2015-07-16 12:29:26,449] main                 Adding msg type 'ao.ADD_STATIC_PERCEPTION', msgNumber 149/0x95
+DEBUG [2015-07-16 12:29:26,449] main                 Adding msg type 'ao.REMOVE_STATIC_PERCEPTION', msgNumber 150/0x96
+DEBUG [2015-07-16 12:29:26,449] main                 Adding msg type 'ao.LOGIN_SPAWNED', msgNumber 151/0x97
+DEBUG [2015-07-16 12:29:26,450] main                 Adding msg type 'ao.ACCOUNT_LOGIN', msgNumber 152/0x98
+DEBUG [2015-07-16 12:29:26,451] main                 Adding msg type 'ao.SEARCH', msgNumber 153/0x99
+DEBUG [2015-07-16 12:29:26,452] main                 Adding msg type 'ao.REQ_TRAINER_INFO', msgNumber 154/0x9a
+DEBUG [2015-07-16 12:29:26,452] main                 Adding msg type 'ao.REQ_SKILL_TRAINING', msgNumber 155/0x9b
+DEBUG [2015-07-16 12:29:26,452] main                 Adding msg type 'ao.TRAINING_INFO', msgNumber 156/0x9c
+DEBUG [2015-07-16 12:29:26,454] main                 Adding msg type 'ao.STAT_XP_UPDATE', msgNumber 157/0x9d
+DEBUG [2015-07-16 12:29:26,454] main                 Adding msg type 'ao.HANDLE_EXP', msgNumber 158/0x9e
+DEBUG [2015-07-16 12:29:26,463] main                 Adding msg type 'ao.GROUP_INVITE', msgNumber 159/0x9f
+DEBUG [2015-07-16 12:29:26,464] main                 Adding msg type 'ao.GROUP_INVITE_RESPONSE', msgNumber 160/0xa0
+DEBUG [2015-07-16 12:29:26,464] main                 Adding msg type 'ao.GROUP_REMOVE_MEMBER', msgNumber 161/0xa1
+DEBUG [2015-07-16 12:29:26,464] main                 Adding msg type 'ao.GROUP_CHAT', msgNumber 162/0xa2
+DEBUG [2015-07-16 12:29:26,464] main                 Adding msg type 'ao.REQUEST_GROUP_INFO', msgNumber 163/0xa3
+DEBUG [2015-07-16 12:29:26,464] main                 Adding msg type 'ao.GROUP_INFO_RESPONSE', msgNumber 164/0xa4
+DEBUG [2015-07-16 12:29:26,464] main                 Adding msg type 'ao.GROUP_SET_ALLOWED_SPEAKER', msgNumber 165/0xa5
+DEBUG [2015-07-16 12:29:26,464] main                 Adding msg type 'ao.GROUP_MUTE_VOICE_CHAT', msgNumber 166/0xa6
+DEBUG [2015-07-16 12:29:26,464] main                 Adding msg type 'ao.GROUP_VOICE_CHAT_STATUS', msgNumber 167/0xa7
+DEBUG [2015-07-16 12:29:26,466] main                 Adding msg type 'ao.VOICECLIENT', msgNumber 168/0xa8
+DEBUG [2015-07-16 12:29:26,466] main                 Adding msg type 'ao.VOICE_MEMBER_ADDED', msgNumber 169/0xa9
+DEBUG [2015-07-16 12:29:26,466] main                 Adding msg type 'ao.VOICE_MEMBER_REMOVED', msgNumber 170/0xaa
+DEBUG [2015-07-16 12:29:26,466] main                 Adding msg type 'ao.GET_PLUGIN_STATUS', msgNumber 171/0xab
+DEBUG [2015-07-16 12:29:26,467] main                 Adding msg type 'ao.ITEM_PURCHASE', msgNumber 172/0xac
+DEBUG [2015-07-16 12:29:26,468] main                 Adding msg type 'ao.VENDOR_BALANCE', msgNumber 173/0xad
+DEBUG [2015-07-16 12:29:26,468] main                 Adding msg type 'ao.VENDOR_GET_BALANCE', msgNumber 174/0xae
+DEBUG [2015-07-16 12:29:26,468] main                 Adding msg type 'ao.VENDOR_INFO_REQ', msgNumber 175/0xaf
+DEBUG [2015-07-16 12:29:26,469] main                 Adding msg type 'ao.BILLING_BALANCE', msgNumber 176/0xb0
+DEBUG [2015-07-16 12:29:26,469] main                 Adding msg type 'ao.DECREMENT_TOKEN_BALANCE', msgNumber 177/0xb1
+DEBUG [2015-07-16 12:29:26,469] main                 Adding msg type 'ao.GET_TOKEN_BALANCE', msgNumber 178/0xb2
+DEBUG [2015-07-16 12:29:26,469] main                 Adding msg type 'ao.GET_PLAYER', msgNumber 179/0xb3
+DEBUG [2015-07-16 12:29:26,470] main                 Adding msg type 'ao.DATA_LOG', msgNumber 180/0xb4
+DEBUG [2015-07-16 12:29:26,470] main                 Engine: script completed
+DEBUG [2015-07-16 12:29:26,470] main                 Engine: Engine: reading in script: ../config/world/worldmessages.py
+WARN  [2015-07-16 12:29:26,471] main                 didnt find local script file, skipping: ../config/world/worldmessages.py
+DEBUG [2015-07-16 12:29:26,471] main                 Initializing Database with driver com.mysql.jdbc.Driver
+DEBUG [2015-07-16 12:29:26,471] main                 classpath = ../other/rhino1_5R5/js.jar:../other/mysql-connector-java-3.1.14-bin.jar:../dist/lib/injected.jar:../dist/lib/atavism.jar:../dist/lib/agis.jar:../config/world/world.jar:../other/java-getopt-1.0.11.jar:../other/jython.jar:../other/log4j-1.2.15.jar:../other/bcel-5.2.jar:../other/mbsclient.jar:../other/slf4j-api-1.5.6.jar:../other/slf4j-log4j12-1.5.6.jar:../other/shiro-core-1.0-incubating-SNAPSHOT.jar:../other/json_simple-1.1.jar:.
+ERROR [2015-07-16 12:29:26,472] main                 Engine.main: error connecting to the database atavism.server.util.AORuntimeException: could not find class: com.mysql.jdbc.Driver
+       at atavism.server.engine.Database.<init>(Database.java:63)
+       at atavism.server.engine.Engine.main(Engine.java:352)

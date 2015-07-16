@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the loot table. Used to identify which table is which.</Text>
+    </HelpEntry>
+    <HelpEntry item="Item #">
+      <Text>An item that can be generated in this loot table.</Text>
+    </HelpEntry>
+    <HelpEntry item="Chance">
+      <Text>The likelihood of the item being generated for this loot table.</Text>
+    </HelpEntry>
+    <HelpEntry item="Count">
+      <Text>How many of the item will be generated if this item is chosen</Text>
+    </HelpEntry>
+    <HelpEntry item="Add Item">
+      <Text>Adds another item to the loot table</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

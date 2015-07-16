@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>The name of the Faction</Text>
+    </HelpEntry>
+    <HelpEntry item="Group">
+      <Text>The group of Factions the Faction belongs to. Used for grouping Factions in the UI.</Text>
+    </HelpEntry>
+    <HelpEntry item="Dynamic">
+      <Text>Can the reputation level of the faction change based on player actions.</Text>
+    </HelpEntry>
+    <HelpEntry item="Default Stance">
+      <Text>The default stance of the Faction when players and other factions first meet it.</Text>
+    </HelpEntry>
+    <HelpEntry item="Faction Stance">
+      <Text />
+    </HelpEntry>
+    <HelpEntry item="Other Faction">
+      <Text>The Other Faction this stance is towards.</Text>
+    </HelpEntry>
+    <HelpEntry item="Default Stance">
+      <Text>The Default Stance towards the other Faction.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>

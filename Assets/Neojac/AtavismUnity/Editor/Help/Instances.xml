@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<HelpEditing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HelpData>
+    <HelpEntry item="Name">
+      <Text>Name of the instance at the game.</Text>
+    </HelpEntry>
+    <HelpEntry item="Spawn Location">
+      <Text>World position where to spawn the instance.</Text>
+    </HelpEntry>
+    <HelpEntry item="Game Object">
+      <Text>A optiional GameObject to get the location from.</Text>
+    </HelpEntry>
+    <HelpEntry item="Create On Startup">
+      <Text>Define that the instance must be created at startup.</Text>
+    </HelpEntry>
+  </HelpData>
+</HelpEditing>
