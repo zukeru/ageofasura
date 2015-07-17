@@ -48,6 +48,7 @@ public class PlayerControl : MonoBehaviour
 	private float sprintFactor;
 
 
+
 	void Awake()
 	{
 		anim = GetComponent<Animator> ();
@@ -68,9 +69,80 @@ public class PlayerControl : MonoBehaviour
 	bool IsGrounded() {
 		return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
 	}
+	private GameObject user_house;
+	public float object_rotatespeed = 60.0f;
+	private bool edit_mode = false;
+	private bool placeHouse = false;
+	public GameObject House;
+	private bool mouseClicked = false;
+	public float player_house_count = 2.0f;
+	public float player_wood_count = 10000f;
+	public float player_gold_count = 5000f;
 
 	void Update()
 	{
+		if (Input.GetKey (KeyCode.M)) {
+			if (player_house_count >= 1){
+				placeHouse = true;
+				print ("Place House");
+			}
+		}
+		if (Input.GetKey (KeyCode.Slash)) {
+			if(edit_mode){
+				print ("Exit Edit Mode");
+				user_house = null;
+				edit_mode = false;
+			}
+		}
+			//place house
+		if (player_gold_count >= 2500 & player_wood_count >= 2500){
+				if (placeHouse) {
+					if (Input.GetKey (KeyCode.Mouse0)) {
+						Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+						if (Physics.Raycast (ray)){
+							user_house = (GameObject)Instantiate (House, transform.position, transform.rotation);
+							print (player_gold_count);
+							print (player_house_count);
+							print (player_wood_count);
+							player_gold_count -= 2500;
+							player_house_count -= 1;
+							player_wood_count -= 2500;
+							print (player_gold_count);
+							print (player_house_count);
+							print (player_wood_count);
+							placeHouse = false;
+						}
+					}
+				}else{
+					if (Input.GetKey (KeyCode.Mouse0)) {
+						edit_mode = true;
+						print("Can't place two houses");
+					}
+				}
+		}else{
+				print ("Not Enough Resources");
+		}
+
+		if (edit_mode) {
+			//edit house
+			print ("Entering Edit Mode");
+				//this is what moves the building to the mouse location
+				if (Input.GetKey (KeyCode.Mouse0)) {
+					Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+					Vector3 position = new Vector3(ray.origin.x+9,ray.origin.y,ray.origin.z+9);
+					if (Physics.Raycast (ray)){
+						user_house.transform.position = new Vector3(position.x,0,position.z);
+					}
+				}
+				//rotate object left
+				if (Input.GetKey (KeyCode.Comma)) {
+					user_house.transform.Rotate (Vector3.up * object_rotatespeed * Time.deltaTime);
+				}
+				//rotate object right
+				if (Input.GetKey (KeyCode.Period)) {
+					user_house.transform.Rotate (-Vector3.up * object_rotatespeed * Time.deltaTime);
+				}
+		}
 		// fly
 		if(Input.GetButtonDown ("Fly"))
 			fly = !fly;
